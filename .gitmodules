@@ -1,0 +1,16 @@
+
+[submodule "user-service"]
+	path = user-service
+	url = https://github.com/codesfortomorrow/fantasy-user-service-rehan.git
+[submodule "bet-service"]
+	path = bet-service
+	url = https://github.com/codesfortomorrow/fantasy-bet-service-rehan.git
+[submodule "market-service"]
+	path = market-service
+	url = https://github.com/codesfortomorrow/fantasy-market-service-rehan.git
+[submodule "market-result-service"]
+	path = market-result-service
+	url = https://github.com/codesfortomorrow/fantasy-market-result-rehan.git
+[submodule "catalogue-service"]
+	path = catalogue-service
+	url = https://github.com/codesfortomorrow/fantasy-catalogue-service-rehan.git

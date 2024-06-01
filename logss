@@ -1,0 +1,1079 @@
+🚀️ Starting bet service on port 8003
+🚀️ Starting bet service on port 8003
+Price1: 3.4
+responseData.Price: 0
+prevSelectionExposure 0 selectionExposure 10000
+Price1: 3.4
+responseData.Price: 0
+prevSelectionExposure 0 selectionExposure 25000
+Status: LOSER
+555555Fetched 0 user bets for resolution
+Event ID: 33296506, Market ID: 1.229252338, Selection ID: 21651917 - The call took 7.217877ms to run.
+Status: WINNER
+555555Fetched 0 user bets for resolution
+Event ID: 33296506, Market ID: 1.229252338, Selection ID: 13369546 - The call took 5.052661ms to run.
+Price1: 3.45
+responseData.Price: 0
+Calculating exposure for bet: {BACK 0 25000 100 58805}
+Market type: MATCH_ODDS
+keyskeys: [58805]
+elseleeslel: -25000 0 0 25000
+Exposure calculated: 25000
+Calculating exposure for bet: {BACK 0 100 100 60310}
+Market type: MATCH_ODDS
+keyskeys: [58805 60310]
+Exposure calculated: 25100
+prevSelectionExposure: 25000 25100
+prevSelectionExposure 25000 selectionExposure 25100
+Price1: 3.45
+responseData.Price: 0
+Calculating exposure for bet: {BACK 0 25000 100 58805}
+Market type: MATCH_ODDS
+keyskeys: [58805]
+elseleeslel: -25000 0 0 25000
+Exposure calculated: 25000
+Calculating exposure for bet: {BACK 0 100 100 60310}
+Market type: MATCH_ODDS
+keyskeys: [58805 60310]
+Exposure calculated: 25100
+Calculating exposure for bet: {BACK 0 100 100 60310}
+Market type: MATCH_ODDS
+keyskeys: [58805 60310]
+Exposure calculated: 25200
+prevSelectionExposure: 25100 25200
+prevSelectionExposure 25100 selectionExposure 25200
+🚀️ Starting bet service on port 8003
+Status: LOSER
+555555Fetched 0 user bets for resolution
+Event ID: 33296506, Market ID: 1.229252338, Selection ID: 21651917 - The call took 29.843032ms to run.
+Status: WINNER
+555555Fetched 0 user bets for resolution
+Event ID: 33296506, Market ID: 1.229252338, Selection ID: 13369546 - The call took 5.009732ms to run.
+Price1: 3.45
+responseData.Price: 0
+Calculating exposure for bet: {BACK 0 25000 100 58805}
+Market type: MATCH_ODDS
+keyskeys: [58805]
+elseleeslel: -25000 0 0 25000
+Exposure calculated: 25000
+Calculating exposure for bet: {BACK 0 100 100 60310}
+Market type: MATCH_ODDS
+keyskeys: [58805 60310]
+Exposure calculated: 25100
+Calculating exposure for bet: {BACK 0 100 100 60310}
+Market type: MATCH_ODDS
+keyskeys: [58805 60310]
+Exposure calculated: 25200
+Calculating exposure for bet: {BACK 0 100 100 60310}
+Market type: MATCH_ODDS
+keyskeys: [58805 60310]
+Exposure calculated: 25300
+prevSelectionExposure: 25200 25300
+prevSelectionExposure 25200 selectionExposure 25300
+🚀️ Starting bet service on port 8003
+Status: WINNER
+555555Fetched 0 user bets for resolution
+Event ID: 33296506, Market ID: 1.229252338, Selection ID: 13369546 - The call took 5.176133ms to run.
+Status: WINNER
+555555Fetched 0 user bets for resolution
+Event ID: 33296598, Market ID: 1.229252802, Selection ID: 26976786 - The call took 3.079958ms to run.
+Status: LOSER
+555555Fetched 0 user bets for resolution
+Event ID: 33296506, Market ID: 1.229252338, Selection ID: 21651917 - The call took 3.183333ms to run.
+Status: LOSER
+555555Fetched 0 user bets for resolution
+Event ID: 33296598, Market ID: 1.229252802, Selection ID: 11861440 - The call took 3.025804ms to run.
+Price1: 1.7
+responseData.Price: 0
+prevSelectionExposure 0 selectionExposure 100
+Price1: 1.98
+responseData.Price: 0
+prevSelectionExposure 0 selectionExposure 100
+Price1: 2.1
+responseData.Price: 0
+Calculating exposure for bet: {BACK 1.88 25001 100 7671296}
+Market type: Match Odds
+keyskeys: [7671296]
+elseleeslel: 22000.879880785942 0 0 25001
+Exposure calculated: 25001
+Calculating exposure for bet: {BACK 0 100 100 2954266}
+Market type: Match Odds
+keyskeys: [7671296 2954266]
+Exposure calculated: 25101
+prevSelectionExposure: 25001 25101
+prevSelectionExposure 25001 selectionExposure 25101
+🚀️ Starting bet service on port 8003
+Price1: 1.89
+responseData.Price: 0
+Calculating exposure for bet: {BACK 1.88 25001 100 7671296}
+Market type: Match Odds
+keyskeys: [7671296]
+elseleeslel: 22000.879880785942 0 0 25001
+Exposure calculated: 25001
+Calculating exposure for bet: {BACK 0 100 100 2954266}
+Market type: Match Odds
+keyskeys: [7671296 2954266]
+Exposure calculated: 25101
+Calculating exposure for bet: {BACK 0 100 100 7671296}
+Market type: Match Odds
+keyskeys: [7671296 2954266]
+Exposure calculated: 25201
+prevSelectionExposure: 25101 25201
+prevSelectionExposure 25101 selectionExposure 25201
+Status: WINNER
+555555Fetched 0 user bets for resolution
+Event ID: 33296598, Market ID: 1.229252802, Selection ID: 26976786 - The call took 2.505337ms to run.
+Status: WINNER
+555555Fetched 0 user bets for resolution
+Event ID: 33296506, Market ID: 1.229252338, Selection ID: 13369546 - The call took 2.663498ms to run.
+Status: LOSER
+555555Fetched 0 user bets for resolution
+Event ID: 33296598, Market ID: 1.229252802, Selection ID: 11861440 - The call took 2.275059ms to run.
+Status: LOSER
+555555Fetched 0 user bets for resolution
+Event ID: 33296506, Market ID: 1.229252338, Selection ID: 21651917 - The call took 2.521849ms to run.
+🚀️ Starting bet service on port 8003
+Status: LOSER
+555555Fetched 0 user bets for resolution
+Event ID: 33296506, Market ID: 1.229252338, Selection ID: 21651917 - The call took 21.872276ms to run.
+Status: LOSER
+555555Fetched 0 user bets for resolution
+Event ID: 33296598, Market ID: 1.229252802, Selection ID: 11861440 - The call took 3.505643ms to run.
+Status: WINNER
+555555Fetched 0 user bets for resolution
+Event ID: 33296506, Market ID: 1.229252338, Selection ID: 13369546 - The call took 2.545234ms to run.
+Status: WINNER
+555555Fetched 0 user bets for resolution
+Event ID: 33296598, Market ID: 1.229252802, Selection ID: 26976786 - The call took 2.600149ms to run.
+Price1: 1.89
+responseData.Price: 0
+Calculating exposure for bet: {BACK 1.88 25001 100 7671296}
+Market type: Match Odds
+keyskeys: [7671296]
+elseleeslel: 22000.879880785942 0 0 25001
+Exposure calculated: 25001
+Calculating exposure for bet: {BACK 0 100 100 2954266}
+Market type: Match Odds
+keyskeys: [7671296 2954266]
+Exposure calculated: 25101
+Calculating exposure for bet: {BACK 0 100 100 7671296}
+Market type: Match Odds
+keyskeys: [7671296 2954266]
+Exposure calculated: 25201
+Calculating exposure for bet: {BACK 0 100 100 7671296}
+Market type: Match Odds
+keyskeys: [7671296 2954266]
+Exposure calculated: 25301
+prevSelectionExposure: 25201 25301
+prevSelectionExposure 25201 selectionExposure 25301
+🚀️ Starting bet service on port 8003
+Price1: 1.89
+responseData.Price: 0
+Calculating exposure for bet: {BACK 1.88 25001 100 7671296}
+Market type: Match Odds
+keyskeys: [7671296]
+elseleeslel: 22000.879880785942 0 0 25001
+Exposure calculated: 25001
+Calculating exposure for bet: {BACK 0 100 100 2954266}
+Market type: Match Odds
+keyskeys: [7671296 2954266]
+Exposure calculated: 25101
+Calculating exposure for bet: {BACK 0 100 100 7671296}
+Market type: Match Odds
+keyskeys: [7671296 2954266]
+Exposure calculated: 25201
+Calculating exposure for bet: {BACK 0 100 100 7671296}
+Market type: Match Odds
+keyskeys: [7671296 2954266]
+Exposure calculated: 25301
+Calculating exposure for bet: {BACK 0 100 100 7671296}
+Market type: Match Odds
+keyskeys: [2954266 7671296]
+Exposure calculated: 25401
+prevSelectionExposure: 25301 25401
+prevSelectionExposure 25301 selectionExposure 25401
+Status: WINNER
+555555Fetched 0 user bets for resolution
+Event ID: 33296598, Market ID: 1.229252802, Selection ID: 26976786 - The call took 4.668346ms to run.
+Status: WINNER
+555555Fetched 0 user bets for resolution
+Event ID: 33296506, Market ID: 1.229252338, Selection ID: 13369546 - The call took 5.715368ms to run.
+Status: LOSER
+555555Fetched 0 user bets for resolution
+Event ID: 33296598, Market ID: 1.229252802, Selection ID: 11861440 - The call took 3.820853ms to run.
+Status: LOSER
+555555Fetched 0 user bets for resolution
+Event ID: 33296506, Market ID: 1.229252338, Selection ID: 21651917 - The call took 4.475168ms to run.
+Status: WINNER
+555555Fetched 0 user bets for resolution
+Event ID: 33296196, Market ID: 1.229250655, Selection ID: 8907168 - The call took 2.44195ms to run.
+Status: LOSER
+555555Fetched bets: [{"id":4438,"bet_on":"BACK","price":0.00,"stake":10000.00,"percent":100.00,"event_type":"Tennis","competition":"N/A","event":"Marketa Vondrousova v Anhelina Kalinina","market":"MATCH_ODDS","calc_fact":0}]
+Fetched 1 user bets for resolution
+Received bet users:
+settelment testing: [{369 100 100000 USER} {367 50 30000 MASTER} {365 80 1.2e+06 SUPER_MASTER} {1 100 1e+07 OWNER}],.
+ resolution
+heeeee
+Settlement amount: -10000
+User Type: MASTER
+Regular user apAmount: 5000
+Updated addAp: 50
+Settlement amount: 5000
+User Type: SUPER_MASTER
+Regular user apAmount: 3000
+Updated addAp: 80
+Settlement amount: 3000
+User Type: OWNER
+Regular user apAmount: 2000
+Updated addAp: 100
+Settlement amount: 2000
+Calculating exposure for bet: {BACK 0 10000 100 9433253}
+Market type: MATCH_ODDS
+keyskeys: [9433253]
+elseleeslel: -10000 0 0 10000
+Exposure calculated: 10000
+Settlement exposure:%!(EXTRA float64=10000)Event ID: 33296196, Market ID: 1.229250655, Selection ID: 9433253 - The call took 212.303173ms to run.
+Status: LOSER
+555555Fetched 0 user bets for resolution
+Event ID: 33296593, Market ID: 1.229252720, Selection ID: 7287690 - The call took 2.301112ms to run.
+Status: WINNER
+555555Fetched 0 user bets for resolution
+Event ID: 33296593, Market ID: 1.229252720, Selection ID: 25989805 - The call took 2.538874ms to run.
+Status: LOSER
+555555Fetched 0 user bets for resolution
+Event ID: 33299153, Market ID: 1.229295622, Selection ID: 11905639 - The call took 2.668351ms to run.
+Status: WINNER
+555555Fetched 0 user bets for resolution
+Event ID: 33299153, Market ID: 1.229295622, Selection ID: 8698678 - The call took 2.327914ms to run.
+Status: LOSER
+555555Fetched 0 user bets for resolution
+Event ID: 33296305, Market ID: 1.229251693, Selection ID: 7287668 - The call took 2.624143ms to run.
+Status: WINNER
+555555Fetched 0 user bets for resolution
+Event ID: 33296305, Market ID: 1.229251693, Selection ID: 19249207 - The call took 2.399045ms to run.
+Status: LOSER
+555555Fetched 0 user bets for resolution
+Event ID: 33296501, Market ID: 1.229252383, Selection ID: 11174011 - The call took 2.16092ms to run.
+Status: WINNER
+555555Fetched 0 user bets for resolution
+Event ID: 33296501, Market ID: 1.229252383, Selection ID: 9151665 - The call took 1.444166ms to run.
+Price1: 1.9
+responseData.Price: 0
+prevSelectionExposure 0 selectionExposure -100
+Price1: 1.9
+responseData.Price: 0
+Calculating exposure for bet: {LAY 0 100 100 7671296}
+Market type: Match Odds
+keyskeys: [7671296]
+elseleeslel: 0 -100 100 0
+Exposure calculated: 0
+Calculating exposure for bet: {LAY 0 5000 100 7671296}
+Market type: Match Odds
+keyskeys: [7671296]
+elseleeslel: 0 -5100 5100 0
+Exposure calculated: 0
+prevSelectionExposure: 0 0
+prevSelectionExposure 0 selectionExposure 0
+Price1: 1.9
+responseData.Price: 0
+Calculating exposure for bet: {LAY 0 100 100 7671296}
+Market type: Match Odds
+keyskeys: [7671296]
+elseleeslel: 0 -100 100 0
+Exposure calculated: 0
+Calculating exposure for bet: {LAY 0 5000 100 7671296}
+Market type: Match Odds
+keyskeys: [7671296]
+elseleeslel: 0 -5100 5100 0
+Exposure calculated: 0
+Calculating exposure for bet: {LAY 0 200 100 7671296}
+Market type: Match Odds
+keyskeys: [7671296]
+elseleeslel: 0 -5300 5300 0
+Exposure calculated: 0
+prevSelectionExposure: 0 0
+prevSelectionExposure 0 selectionExposure 0
+Price1: 1.89
+responseData.Price: 0
+Calculating exposure for bet: {LAY 0 100 100 7671296}
+Market type: Match Odds
+keyskeys: [7671296]
+elseleeslel: 0 -100 100 0
+Exposure calculated: 0
+Calculating exposure for bet: {LAY 0 5000 100 7671296}
+Market type: Match Odds
+keyskeys: [7671296]
+elseleeslel: 0 -5100 5100 0
+Exposure calculated: 0
+Calculating exposure for bet: {LAY 0 200 100 7671296}
+Market type: Match Odds
+keyskeys: [7671296]
+elseleeslel: 0 -5300 5300 0
+Exposure calculated: 0
+Calculating exposure for bet: {BACK 0 100 100 7671296}
+Market type: Match Odds
+keyskeys: [7671296]
+elseleeslel: -100 -5300 5300 100
+Exposure calculated: 0
+prevSelectionExposure: 0 0
+prevSelectionExposure 0 selectionExposure 0
+Status: LOSER
+555555Fetched 0 user bets for resolution
+Event ID: 33298046, Market ID: 1.229271304, Selection ID: 11982013 - The call took 2.411487ms to run.
+Status: WINNER
+555555Fetched 0 user bets for resolution
+Event ID: 33298046, Market ID: 1.229271304, Selection ID: 58805 - The call took 2.245162ms to run.
+Status: LOSER
+555555Fetched 0 user bets for resolution
+Event ID: 33298046, Market ID: 1.229271304, Selection ID: 14116273 - The call took 1.38263ms to run.
+Price1: 1.55
+responseData.Price: 0
+Calculating exposure for bet: {BACK 1.89 5000 100 152530}
+Market type: Match Odds
+keyskeys: [152530]
+elseleeslel: 4449.999928474426 0 0 5000
+Exposure calculated: 5000
+Calculating exposure for bet: {BACK 1.77 5000 100 152530}
+Market type: Match Odds
+keyskeys: [152530]
+elseleeslel: 8299.999833106995 0 0 10000
+Exposure calculated: 10000
+Calculating exposure for bet: {LAY 1.68 2000 100 228749}
+Market type: Match Odds
+keyskeys: [228749 152530]
+Exposure calculated: 11359.999895095825
+Calculating exposure for bet: {BACK 0 2000 100 228749}
+Market type: Match Odds
+keyskeys: [152530 228749]
+Exposure calculated: 13359.999895095825
+prevSelectionExposure: 11359.999895095825 13359.999895095825
+prevSelectionExposure 11359.999895095825 selectionExposure 13359.999895095825
+Status: WINNER
+555555Fetched 0 user bets for resolution
+Event ID: 33296652, Market ID: 1.229253150, Selection ID: 42830226 - The call took 2.351794ms to run.
+Status: LOSER
+555555Fetched 0 user bets for resolution
+Event ID: 33296652, Market ID: 1.229253150, Selection ID: 39038450 - The call took 1.667553ms to run.
+Price1: 1.56
+responseData.Price: 0
+Calculating exposure for bet: {BACK 1.89 5000 100 152530}
+Market type: Match Odds
+keyskeys: [152530]
+elseleeslel: 4449.999928474426 0 0 5000
+Exposure calculated: 5000
+Calculating exposure for bet: {BACK 1.77 5000 100 152530}
+Market type: Match Odds
+keyskeys: [152530]
+elseleeslel: 8299.999833106995 0 0 10000
+Exposure calculated: 10000
+Calculating exposure for bet: {LAY 1.68 2000 100 228749}
+Market type: Match Odds
+keyskeys: [152530 228749]
+Exposure calculated: 11359.999895095825
+Calculating exposure for bet: {BACK 0 2000 100 228749}
+Market type: Match Odds
+keyskeys: [228749 152530]
+Exposure calculated: 13359.999895095825
+prevSelectionExposure: 11359.999895095825 13359.999895095825
+prevSelectionExposure 11359.999895095825 selectionExposure 13359.999895095825
+Price1: 1.26
+responseData.Price: 0
+Calculating exposure for bet: {BACK 1.89 5000 100 152530}
+Market type: Match Odds
+keyskeys: [152530]
+elseleeslel: 4449.999928474426 0 0 5000
+Exposure calculated: 5000
+Calculating exposure for bet: {BACK 1.77 5000 100 152530}
+Market type: Match Odds
+keyskeys: [152530]
+elseleeslel: 8299.999833106995 0 0 10000
+Exposure calculated: 10000
+Calculating exposure for bet: {LAY 1.68 2000 100 228749}
+Market type: Match Odds
+keyskeys: [152530 228749]
+Exposure calculated: 11359.999895095825
+Calculating exposure for bet: {LAY 0 500 100 228749}
+Market type: Match Odds
+keyskeys: [152530 228749]
+Exposure calculated: 10859.999895095825
+prevSelectionExposure: 11359.999895095825 10859.999895095825
+prevSelectionExposure 11359.999895095825 selectionExposure 10859.999895095825
+Price1: 1.28
+responseData.Price: 0
+Calculating exposure for bet: {BACK 1.89 5000 100 152530}
+Market type: Match Odds
+keyskeys: [152530]
+elseleeslel: 4449.999928474426 0 0 5000
+Exposure calculated: 5000
+Calculating exposure for bet: {BACK 1.77 5000 100 152530}
+Market type: Match Odds
+keyskeys: [152530]
+elseleeslel: 8299.999833106995 0 0 10000
+Exposure calculated: 10000
+Calculating exposure for bet: {LAY 1.68 2000 100 228749}
+Market type: Match Odds
+keyskeys: [152530 228749]
+Exposure calculated: 11359.999895095825
+Calculating exposure for bet: {LAY 0 500 100 228749}
+Market type: Match Odds
+keyskeys: [228749 152530]
+Exposure calculated: 10859.999895095825
+Calculating exposure for bet: {BACK 0 500 100 228749}
+Market type: Match Odds
+keyskeys: [152530 228749]
+Exposure calculated: 11359.999895095825
+prevSelectionExposure: 10859.999895095825 11359.999895095825
+prevSelectionExposure 10859.999895095825 selectionExposure 11359.999895095825
+Price1: 1.4
+responseData.Price: 0
+Calculating exposure for bet: {BACK 1.89 5000 100 152530}
+Market type: Match Odds
+keyskeys: [152530]
+elseleeslel: 4449.999928474426 0 0 5000
+Exposure calculated: 5000
+Calculating exposure for bet: {BACK 1.77 5000 100 152530}
+Market type: Match Odds
+keyskeys: [152530]
+elseleeslel: 8299.999833106995 0 0 10000
+Exposure calculated: 10000
+Calculating exposure for bet: {LAY 1.68 2000 100 228749}
+Market type: Match Odds
+keyskeys: [152530 228749]
+Exposure calculated: 11359.999895095825
+Calculating exposure for bet: {LAY 0 500 100 228749}
+Market type: Match Odds
+keyskeys: [152530 228749]
+Exposure calculated: 10859.999895095825
+Calculating exposure for bet: {BACK 0 500 100 228749}
+Market type: Match Odds
+keyskeys: [152530 228749]
+Exposure calculated: 11359.999895095825
+Calculating exposure for bet: {BACK 0 1000 100 228749}
+Market type: Match Odds
+keyskeys: [228749 152530]
+Exposure calculated: 12359.999895095825
+prevSelectionExposure: 11359.999895095825 12359.999895095825
+prevSelectionExposure 11359.999895095825 selectionExposure 12359.999895095825
+Price1: 1.52
+responseData.Price: 0
+Calculating exposure for bet: {BACK 1.89 5000 100 152530}
+Market type: Match Odds
+keyskeys: [152530]
+elseleeslel: 4449.999928474426 0 0 5000
+Exposure calculated: 5000
+Calculating exposure for bet: {BACK 1.77 5000 100 152530}
+Market type: Match Odds
+keyskeys: [152530]
+elseleeslel: 8299.999833106995 0 0 10000
+Exposure calculated: 10000
+Calculating exposure for bet: {LAY 1.68 2000 100 228749}
+Market type: Match Odds
+keyskeys: [152530 228749]
+Exposure calculated: 11359.999895095825
+Calculating exposure for bet: {LAY 0 500 100 228749}
+Market type: Match Odds
+keyskeys: [152530 228749]
+Exposure calculated: 10859.999895095825
+Calculating exposure for bet: {BACK 0 500 100 228749}
+Market type: Match Odds
+keyskeys: [152530 228749]
+Exposure calculated: 11359.999895095825
+Calculating exposure for bet: {LAY 0 1000 100 228749}
+Market type: Match Odds
+keyskeys: [152530 228749]
+Exposure calculated: 10359.999895095825
+prevSelectionExposure: 11359.999895095825 10359.999895095825
+prevSelectionExposure 11359.999895095825 selectionExposure 10359.999895095825
+Price1: 1.46
+responseData.Price: 0
+Calculating exposure for bet: {BACK 1.89 5000 100 152530}
+Market type: Match Odds
+keyskeys: [152530]
+elseleeslel: 4449.999928474426 0 0 5000
+Exposure calculated: 5000
+Calculating exposure for bet: {BACK 1.77 5000 100 152530}
+Market type: Match Odds
+keyskeys: [152530]
+elseleeslel: 8299.999833106995 0 0 10000
+Exposure calculated: 10000
+Calculating exposure for bet: {LAY 1.68 2000 100 228749}
+Market type: Match Odds
+keyskeys: [228749 152530]
+Exposure calculated: 11359.999895095825
+Calculating exposure for bet: {LAY 0 500 100 228749}
+Market type: Match Odds
+keyskeys: [152530 228749]
+Exposure calculated: 10859.999895095825
+Calculating exposure for bet: {BACK 0 500 100 228749}
+Market type: Match Odds
+keyskeys: [152530 228749]
+Exposure calculated: 11359.999895095825
+Calculating exposure for bet: {LAY 0 1000 100 228749}
+Market type: Match Odds
+keyskeys: [152530 228749]
+Exposure calculated: 10359.999895095825
+Calculating exposure for bet: {LAY 0 1000 100 152530}
+Market type: Match Odds
+keyskeys: [152530 228749]
+Exposure calculated: 9359.999895095825
+prevSelectionExposure: 10359.999895095825 9359.999895095825
+prevSelectionExposure 10359.999895095825 selectionExposure 9359.999895095825
+Price1: 1.48
+responseData.Price: 0
+Calculating exposure for bet: {BACK 1.89 5000 100 152530}
+Market type: Match Odds
+keyskeys: [152530]
+elseleeslel: 4449.999928474426 0 0 5000
+Exposure calculated: 5000
+Calculating exposure for bet: {BACK 1.77 5000 100 152530}
+Market type: Match Odds
+keyskeys: [152530]
+elseleeslel: 8299.999833106995 0 0 10000
+Exposure calculated: 10000
+Calculating exposure for bet: {LAY 1.68 2000 100 228749}
+Market type: Match Odds
+keyskeys: [152530 228749]
+Exposure calculated: 11359.999895095825
+Calculating exposure for bet: {LAY 0 500 100 228749}
+Market type: Match Odds
+keyskeys: [152530 228749]
+Exposure calculated: 10859.999895095825
+Calculating exposure for bet: {BACK 0 500 100 228749}
+Market type: Match Odds
+keyskeys: [152530 228749]
+Exposure calculated: 11359.999895095825
+Calculating exposure for bet: {LAY 0 1000 100 228749}
+Market type: Match Odds
+keyskeys: [152530 228749]
+Exposure calculated: 10359.999895095825
+Calculating exposure for bet: {LAY 0 1000 100 152530}
+Market type: Match Odds
+keyskeys: [152530 228749]
+Exposure calculated: 9359.999895095825
+Calculating exposure for bet: {LAY 0 1000 100 152530}
+Market type: Match Odds
+keyskeys: [228749 152530]
+Exposure calculated: 8359.999895095825
+prevSelectionExposure: 9359.999895095825 8359.999895095825
+prevSelectionExposure 9359.999895095825 selectionExposure 8359.999895095825
+Price1: 1.42
+responseData.Price: 0
+Calculating exposure for bet: {BACK 1.89 5000 100 152530}
+Market type: Match Odds
+keyskeys: [152530]
+elseleeslel: 4449.999928474426 0 0 5000
+Exposure calculated: 5000
+Calculating exposure for bet: {BACK 1.77 5000 100 152530}
+Market type: Match Odds
+keyskeys: [152530]
+elseleeslel: 8299.999833106995 0 0 10000
+Exposure calculated: 10000
+Calculating exposure for bet: {LAY 1.68 2000 100 228749}
+Market type: Match Odds
+keyskeys: [228749 152530]
+Exposure calculated: 11359.999895095825
+Calculating exposure for bet: {LAY 0 500 100 228749}
+Market type: Match Odds
+keyskeys: [152530 228749]
+Exposure calculated: 10859.999895095825
+Calculating exposure for bet: {BACK 0 500 100 228749}
+Market type: Match Odds
+keyskeys: [152530 228749]
+Exposure calculated: 11359.999895095825
+Calculating exposure for bet: {LAY 0 1000 100 228749}
+Market type: Match Odds
+keyskeys: [152530 228749]
+Exposure calculated: 10359.999895095825
+Calculating exposure for bet: {LAY 0 1000 100 152530}
+Market type: Match Odds
+keyskeys: [228749 152530]
+Exposure calculated: 9359.999895095825
+Calculating exposure for bet: {LAY 0 1000 100 152530}
+Market type: Match Odds
+keyskeys: [152530 228749]
+Exposure calculated: 8359.999895095825
+Calculating exposure for bet: {LAY 0 1000 100 152530}
+Market type: Match Odds
+keyskeys: [152530 228749]
+Exposure calculated: 7359.999895095825
+prevSelectionExposure: 8359.999895095825 7359.999895095825
+prevSelectionExposure 8359.999895095825 selectionExposure 7359.999895095825
+Price1: 1.3
+responseData.Price: 0
+Calculating exposure for bet: {BACK 1.89 5000 100 152530}
+Market type: Match Odds
+keyskeys: [152530]
+elseleeslel: 4449.999928474426 0 0 5000
+Exposure calculated: 5000
+Calculating exposure for bet: {BACK 1.77 5000 100 152530}
+Market type: Match Odds
+keyskeys: [152530]
+elseleeslel: 8299.999833106995 0 0 10000
+Exposure calculated: 10000
+Calculating exposure for bet: {LAY 1.68 2000 100 228749}
+Market type: Match Odds
+keyskeys: [152530 228749]
+Exposure calculated: 11359.999895095825
+Calculating exposure for bet: {LAY 0 500 100 228749}
+Market type: Match Odds
+keyskeys: [152530 228749]
+Exposure calculated: 10859.999895095825
+Calculating exposure for bet: {BACK 0 500 100 228749}
+Market type: Match Odds
+keyskeys: [228749 152530]
+Exposure calculated: 11359.999895095825
+Calculating exposure for bet: {LAY 0 1000 100 228749}
+Market type: Match Odds
+keyskeys: [152530 228749]
+Exposure calculated: 10359.999895095825
+Calculating exposure for bet: {LAY 0 1000 100 152530}
+Market type: Match Odds
+keyskeys: [228749 152530]
+Exposure calculated: 9359.999895095825
+Calculating exposure for bet: {LAY 0 1000 100 152530}
+Market type: Match Odds
+keyskeys: [152530 228749]
+Exposure calculated: 8359.999895095825
+Calculating exposure for bet: {LAY 0 1000 100 152530}
+Market type: Match Odds
+keyskeys: [152530 228749]
+Exposure calculated: 7359.999895095825
+Calculating exposure for bet: {LAY 0 1000 100 152530}
+Market type: Match Odds
+keyskeys: [152530 228749]
+Exposure calculated: 6359.999895095825
+prevSelectionExposure: 7359.999895095825 6359.999895095825
+prevSelectionExposure 7359.999895095825 selectionExposure 6359.999895095825
+Price1: 1.18
+responseData.Price: 0
+Calculating exposure for bet: {BACK 1.89 5000 100 152530}
+Market type: Match Odds
+keyskeys: [152530]
+elseleeslel: 4449.999928474426 0 0 5000
+Exposure calculated: 5000
+Calculating exposure for bet: {BACK 1.77 5000 100 152530}
+Market type: Match Odds
+keyskeys: [152530]
+elseleeslel: 8299.999833106995 0 0 10000
+Exposure calculated: 10000
+Calculating exposure for bet: {LAY 1.68 2000 100 228749}
+Market type: Match Odds
+keyskeys: [152530 228749]
+Exposure calculated: 11359.999895095825
+Calculating exposure for bet: {LAY 0 500 100 228749}
+Market type: Match Odds
+keyskeys: [152530 228749]
+Exposure calculated: 10859.999895095825
+Calculating exposure for bet: {BACK 0 500 100 228749}
+Market type: Match Odds
+keyskeys: [152530 228749]
+Exposure calculated: 11359.999895095825
+Calculating exposure for bet: {LAY 0 1000 100 228749}
+Market type: Match Odds
+keyskeys: [152530 228749]
+Exposure calculated: 10359.999895095825
+Calculating exposure for bet: {LAY 0 1000 100 152530}
+Market type: Match Odds
+keyskeys: [152530 228749]
+Exposure calculated: 9359.999895095825
+Calculating exposure for bet: {LAY 0 1000 100 152530}
+Market type: Match Odds
+keyskeys: [152530 228749]
+Exposure calculated: 8359.999895095825
+Calculating exposure for bet: {LAY 0 1000 100 152530}
+Market type: Match Odds
+keyskeys: [228749 152530]
+Exposure calculated: 7359.999895095825
+Calculating exposure for bet: {LAY 0 1000 100 152530}
+Market type: Match Odds
+keyskeys: [152530 228749]
+Exposure calculated: 6359.999895095825
+Calculating exposure for bet: {LAY 0 5000 100 152530}
+Market type: Match Odds
+keyskeys: [228749 152530]
+Exposure calculated: 1359.9998950958252
+prevSelectionExposure: 6359.999895095825 1359.9998950958252
+prevSelectionExposure 6359.999895095825 selectionExposure 1359.9998950958252
+Price1: 1.21
+responseData.Price: 0
+Calculating exposure for bet: {BACK 1.89 5000 100 152530}
+Market type: Match Odds
+keyskeys: [152530]
+elseleeslel: 4449.999928474426 0 0 5000
+Exposure calculated: 5000
+Calculating exposure for bet: {BACK 1.77 5000 100 152530}
+Market type: Match Odds
+keyskeys: [152530]
+elseleeslel: 8299.999833106995 0 0 10000
+Exposure calculated: 10000
+Calculating exposure for bet: {LAY 1.68 2000 100 228749}
+Market type: Match Odds
+keyskeys: [152530 228749]
+Exposure calculated: 11359.999895095825
+Calculating exposure for bet: {LAY 0 500 100 228749}
+Market type: Match Odds
+keyskeys: [152530 228749]
+Exposure calculated: 10859.999895095825
+Calculating exposure for bet: {BACK 0 500 100 228749}
+Market type: Match Odds
+keyskeys: [228749 152530]
+Exposure calculated: 11359.999895095825
+Calculating exposure for bet: {LAY 0 1000 100 228749}
+Market type: Match Odds
+keyskeys: [152530 228749]
+Exposure calculated: 10359.999895095825
+Calculating exposure for bet: {LAY 0 1000 100 152530}
+Market type: Match Odds
+keyskeys: [152530 228749]
+Exposure calculated: 9359.999895095825
+Calculating exposure for bet: {LAY 0 1000 100 152530}
+Market type: Match Odds
+keyskeys: [228749 152530]
+Exposure calculated: 8359.999895095825
+Calculating exposure for bet: {LAY 0 1000 100 152530}
+Market type: Match Odds
+keyskeys: [152530 228749]
+Exposure calculated: 7359.999895095825
+Calculating exposure for bet: {LAY 0 1000 100 152530}
+Market type: Match Odds
+keyskeys: [228749 152530]
+Exposure calculated: 6359.999895095825
+Calculating exposure for bet: {LAY 0 5000 100 152530}
+Market type: Match Odds
+keyskeys: [228749 152530]
+Exposure calculated: 1359.9998950958252
+Calculating exposure for bet: {LAY 0 1000 100 152530}
+Market type: Match Odds
+keyskeys: [152530 228749]
+Exposure calculated: 359.9998950958252
+prevSelectionExposure: 1359.9998950958252 359.9998950958252
+prevSelectionExposure 1359.9998950958252 selectionExposure 359.9998950958252
+Status: LOSER
+Fetching user market bets by selection: GameId: 4, EventId: 33297758, MarketId: 1.229265727, SelectionId: 228749, Market: Match Odds, GameType: Match Odds
+555555Fetched bets: [{"id":4443,"bet_on":"BACK","price":0.00,"stake":100.00,"percent":100.00,"event_type":"Cricket","competition":"N/A","event":"Netherlands v Ireland","market":"Match Odds","calc_fact":0}]
+Fetched bets: [{"id":4437,"bet_on":"LAY","price":1.68,"stake":2000.00,"percent":100.00,"event_type":"Cricket","competition":"N/A","event":"Netherlands v Ireland","market":"Match Odds","calc_fact":0}, 
+ {"id":4453,"bet_on":"LAY","price":0.00,"stake":500.00,"percent":100.00,"event_type":"Cricket","competition":"N/A","event":"Netherlands v Ireland","market":"Match Odds","calc_fact":0}, 
+ {"id":4454,"bet_on":"BACK","price":0.00,"stake":500.00,"percent":100.00,"event_type":"Cricket","competition":"N/A","event":"Netherlands v Ireland","market":"Match Odds","calc_fact":0}, 
+ {"id":4455,"bet_on":"LAY","price":0.00,"stake":1000.00,"percent":100.00,"event_type":"Cricket","competition":"N/A","event":"Netherlands v Ireland","market":"Match Odds","calc_fact":0}]
+Fetched 2 user bets for resolution
+Received bet users:
+settelment testing: [{369 100 100000 USER} {367 50 30000 MASTER} {365 80 1.2e+06 SUPER_MASTER} {1 100 1e+07 OWNER}],.
+ resolution
+heeeee
+Settlement amount: -100
+User Type: MASTER
+Regular user apAmount: 50
+Updated addAp: 50
+Settlement amount: 50
+User Type: SUPER_MASTER
+Regular user apAmount: 30
+Updated addAp: 80
+Settlement amount: 30
+User Type: OWNER
+Regular user apAmount: 20
+Updated addAp: 100
+Settlement amount: 20
+Calculating exposure for bet: {BACK 0 100 100 228749}
+Market type: Match Odds
+keyskeys: [228749]
+elseleeslel: -100 0 0 100
+Exposure calculated: 100
+Settlement exposure:%!(EXTRA float64=100)Received bet users:
+settelment testing: [{513 100 11080 USER} {1 100 1e+07 OWNER}],.
+Fetched  suiiii bets for resolution
+Settlement amount: 2000
+User Type: OWNER
+Regular user apAmount: -2000
+Updated addAp: 100
+Settlement amount: -2000
+settelment testing: [{513 100 11080 USER} {1 100 1e+07 OWNER}],.
+Fetched  suiiii bets for resolution
+Settlement amount: 500
+User Type: OWNER
+Regular user apAmount: -500
+Updated addAp: 100
+Settlement amount: -500
+settelment testing: [{513 100 11080 USER} {1 100 1e+07 OWNER}],.
+ resolution
+heeeee
+Settlement amount: -500
+User Type: OWNER
+Regular user apAmount: 500
+Updated addAp: 100
+Settlement amount: 500
+settelment testing: [{513 100 11080 USER} {1 100 1e+07 OWNER}],.
+Fetched  suiiii bets for resolution
+Settlement amount: 1000
+User Type: OWNER
+Regular user apAmount: -1000
+Updated addAp: 100
+Settlement amount: -1000
+Calculating exposure for bet: {LAY 1.68 2000 100 228749}
+Market type: Match Odds
+keyskeys: [228749]
+elseleeslel: 0 1359.9998950958252 2000 0
+Exposure calculated: 1359.9998950958252
+Calculating exposure for bet: {LAY 0 500 100 228749}
+Market type: Match Odds
+keyskeys: [228749]
+elseleeslel: 0 859.9998950958252 2500 0
+Exposure calculated: 859.9998950958252
+Calculating exposure for bet: {BACK 0 500 100 228749}
+Market type: Match Odds
+keyskeys: [228749]
+elseleeslel: -500 859.9998950958252 2500 500
+Exposure calculated: 1359.9998950958252
+Calculating exposure for bet: {LAY 0 1000 100 228749}
+Market type: Match Odds
+keyskeys: [228749]
+elseleeslel: -500 -140.0001049041748 3500 500
+Exposure calculated: 359.9998950958252
+Settlement exposure:%!(EXTRA float64=359.9998950958252)Event ID: 33297758, Market ID: 1.229265727, Selection ID: 228749 - The call took 154.799665ms to run.
+Status: LOSER
+Fetching user market bets by selection: GameId: 4, EventId: 33297758, MarketId: 1.229265727, SelectionId: Netherlands, Market: bookmaker, GameType: bookmaker
+bookmqkerFetched 0 user bets for resolution
+Event ID: 33297758, Market ID: 1.229265727, Selection ID: Netherlands - The call took 2.274419ms to run.
+Status: WINNER
+Fetching user market bets by selection: GameId: 4, EventId: 33297758, MarketId: 1.229265727, SelectionId: Ireland, Market: bookmaker, GameType: bookmaker
+bookmqkerFetched 0 user bets for resolution
+Event ID: 33297758, Market ID: 1.229265727, Selection ID: Ireland - The call took 1.472717ms to run.
+Status: WINNER
+Fetching user market bets by selection: GameId: 4, EventId: 33297758, MarketId: 1.229265727, SelectionId: 152530, Market: Match Odds, GameType: Match Odds
+555555Fetched bets: [{"id":4435,"bet_on":"BACK","price":1.89,"stake":5000.00,"percent":100.00,"event_type":"Cricket","competition":"N/A","event":"Netherlands v Ireland","market":"Match Odds","calc_fact":0}, 
+ {"id":4436,"bet_on":"BACK","price":1.77,"stake":5000.00,"percent":100.00,"event_type":"Cricket","competition":"N/A","event":"Netherlands v Ireland","market":"Match Odds","calc_fact":0}, 
+ {"id":4456,"bet_on":"LAY","price":0.00,"stake":1000.00,"percent":100.00,"event_type":"Cricket","competition":"N/A","event":"Netherlands v Ireland","market":"Match Odds","calc_fact":0}, 
+ {"id":4457,"bet_on":"LAY","price":0.00,"stake":1000.00,"percent":100.00,"event_type":"Cricket","competition":"N/A","event":"Netherlands v Ireland","market":"Match Odds","calc_fact":0}, 
+ {"id":4458,"bet_on":"LAY","price":0.00,"stake":1000.00,"percent":100.00,"event_type":"Cricket","competition":"N/A","event":"Netherlands v Ireland","market":"Match Odds","calc_fact":0}, 
+ {"id":4459,"bet_on":"LAY","price":0.00,"stake":1000.00,"percent":100.00,"event_type":"Cricket","competition":"N/A","event":"Netherlands v Ireland","market":"Match Odds","calc_fact":0}, 
+ {"id":4460,"bet_on":"LAY","price":0.00,"stake":5000.00,"percent":100.00,"event_type":"Cricket","competition":"N/A","event":"Netherlands v Ireland","market":"Match Odds","calc_fact":0}, 
+ {"id":4461,"bet_on":"LAY","price":0.00,"stake":1000.00,"percent":100.00,"event_type":"Cricket","competition":"N/A","event":"Netherlands v Ireland","market":"Match Odds","calc_fact":0}]
+Fetched 1 user bets for resolution
+Received bet users:
+settelment testing: [{513 100 11080 USER} {1 100 1e+07 OWNER}],.
+ resolution
+Settlement amount: 4449.999928474426
+User Type: OWNER
+Regular user apAmount: -4449.999928474426
+Updated addAp: 100
+Settlement amount: -4449.999928474426
+settelment testing: [{513 100 11080 USER} {1 100 1e+07 OWNER}],.
+ resolution
+Settlement amount: 3849.9999046325684
+User Type: OWNER
+Regular user apAmount: -3849.9999046325684
+Updated addAp: 100
+Settlement amount: -3849.9999046325684
+settelment testing: [{513 100 11080 USER} {1 100 1e+07 OWNER}],.
+Fetched  suiiii bets for resolution
+Settlement amount: 1000
+User Type: OWNER
+Regular user apAmount: -1000
+Updated addAp: 100
+Settlement amount: -1000
+settelment testing: [{513 100 11080 USER} {1 100 1e+07 OWNER}],.
+Fetched  suiiii bets for resolution
+Settlement amount: 1000
+User Type: OWNER
+Regular user apAmount: -1000
+Updated addAp: 100
+Settlement amount: -1000
+settelment testing: [{513 100 11080 USER} {1 100 1e+07 OWNER}],.
+Fetched  suiiii bets for resolution
+Settlement amount: 1000
+User Type: OWNER
+Regular user apAmount: -1000
+Updated addAp: 100
+Settlement amount: -1000
+settelment testing: [{513 100 11080 USER} {1 100 1e+07 OWNER}],.
+Fetched  suiiii bets for resolution
+Settlement amount: 1000
+User Type: OWNER
+Regular user apAmount: -1000
+Updated addAp: 100
+Settlement amount: -1000
+settelment testing: [{513 100 11080 USER} {1 100 1e+07 OWNER}],.
+Fetched  suiiii bets for resolution
+Settlement amount: 5000
+User Type: OWNER
+Regular user apAmount: -5000
+Updated addAp: 100
+Settlement amount: -5000
+settelment testing: [{513 100 11080 USER} {1 100 1e+07 OWNER}],.
+Fetched  suiiii bets for resolution
+Settlement amount: 1000
+User Type: OWNER
+Regular user apAmount: -1000
+Updated addAp: 100
+Settlement amount: -1000
+Calculating exposure for bet: {BACK 1.89 5000 100 152530}
+Market type: Match Odds
+keyskeys: [152530]
+elseleeslel: 4449.999928474426 0 0 5000
+Exposure calculated: 5000
+Calculating exposure for bet: {BACK 1.77 5000 100 152530}
+Market type: Match Odds
+keyskeys: [152530]
+elseleeslel: 8299.999833106995 0 0 10000
+Exposure calculated: 10000
+Calculating exposure for bet: {LAY 0 1000 100 152530}
+Market type: Match Odds
+keyskeys: [152530]
+elseleeslel: 8299.999833106995 -1000 1000 10000
+Exposure calculated: 9000
+Calculating exposure for bet: {LAY 0 1000 100 152530}
+Market type: Match Odds
+keyskeys: [152530]
+elseleeslel: 8299.999833106995 -2000 2000 10000
+Exposure calculated: 8000
+Calculating exposure for bet: {LAY 0 1000 100 152530}
+Market type: Match Odds
+keyskeys: [152530]
+elseleeslel: 8299.999833106995 -3000 3000 10000
+Exposure calculated: 7000
+Calculating exposure for bet: {LAY 0 1000 100 152530}
+Market type: Match Odds
+keyskeys: [152530]
+elseleeslel: 8299.999833106995 -4000 4000 10000
+Exposure calculated: 6000
+Calculating exposure for bet: {LAY 0 5000 100 152530}
+Market type: Match Odds
+keyskeys: [152530]
+elseleeslel: 8299.999833106995 -9000 9000 10000
+Exposure calculated: 1000
+Calculating exposure for bet: {LAY 0 1000 100 152530}
+Market type: Match Odds
+keyskeys: [152530]
+elseleeslel: 8299.999833106995 -10000 10000 10000
+Exposure calculated: 0
+Settlement exposure:%!(EXTRA float64=0)Event ID: 33297758, Market ID: 1.229265727, Selection ID: 152530 - The call took 110.159925ms to run.
+Status: WINNER
+555555Fetched 0 user bets for resolution
+Event ID: 33296071, Market ID: 1.229249250, Selection ID: 9631543 - The call took 2.812848ms to run.
+Status: LOSER
+555555Fetched 0 user bets for resolution
+Event ID: 33296071, Market ID: 1.229249250, Selection ID: 12737427 - The call took 2.39877ms to run.
+Price1: 1.88
+responseData.Price: 0
+Calculating exposure for bet: {BACK 1.88 25001 100 7671296}
+Market type: Match Odds
+keyskeys: [7671296]
+elseleeslel: 22000.879880785942 0 0 25001
+Exposure calculated: 25001
+Calculating exposure for bet: {BACK 0 100 100 2954266}
+Market type: Match Odds
+keyskeys: [7671296 2954266]
+Exposure calculated: 25101
+Calculating exposure for bet: {BACK 0 100 100 7671296}
+Market type: Match Odds
+keyskeys: [7671296 2954266]
+Exposure calculated: 25201
+Calculating exposure for bet: {BACK 0 100 100 7671296}
+Market type: Match Odds
+keyskeys: [7671296 2954266]
+Exposure calculated: 25301
+Calculating exposure for bet: {BACK 0 100 100 7671296}
+Market type: Match Odds
+keyskeys: [7671296 2954266]
+Exposure calculated: 25401
+Calculating exposure for bet: {BACK 0 100 100 7671296}
+Market type: Match Odds
+keyskeys: [7671296 2954266]
+Exposure calculated: 25501
+prevSelectionExposure: 25401 25501
+prevSelectionExposure 25401 selectionExposure 25501
+🚀️ Starting bet service on port 8003
+🚀️ Starting bet service on port 8003
+Status: WINNER
+555555Fetched 0 user bets for resolution
+Event ID: 33296071, Market ID: 1.229249250, Selection ID: 9631543 - The call took 11.554318ms to run.
+Status: LOSER
+555555Fetched 0 user bets for resolution
+Event ID: 33296071, Market ID: 1.229249250, Selection ID: 12737427 - The call took 2.551034ms to run.
+Price1: 1.65
+responseData.Price: 1.65
+prevSelectionExposure 0 selectionExposure 100
+Price1: 57
+responseData.Price: 57
+prevSelectionExposure 0 selectionExposure 1000
+Status: LOSER
+555555Fetched 0 user bets for resolution
+Event ID: 33296310, Market ID: 1.229251650, Selection ID: 11439772 - The call took 2.610196ms to run.
+Status: WINNER
+555555Fetched 0 user bets for resolution
+Event ID: 33296310, Market ID: 1.229251650, Selection ID: 2309567 - The call took 1.721174ms to run.
+Status: REMOVED
+Fetching user market bets by selection: GameId: 4, EventId: 33296390, MarketId: , SelectionId: 2528, Market: fancy, GameType: fancy
+SelectionId:2Fetched bets: [{"id":4444,"bet_on":"BACK","price":0.00,"stake":100.00,"percent":500000.00,"event_type":"Cricket","competition":"N/A","event":"Sunrisers Hyderabad v Rajasthan Royals","market":"fancy","calc_fact":0}]
+Fetched 1 user bets for resolution
+Received bet users:
+Calculating exposure for bet: {BACK 0 100 500000 2528}
+Market type: fancy
+keyskeys: [2528]
+elseleeslel: -100 0 0 100
+Exposure calculated: 100
+Settlement exposure:%!(EXTRA float64=100)Event ID: 33296390, Market ID: , Selection ID: 2528 - The call took 28.44045ms to run.
+🚀️ Starting bet service on port 8003
+Status: LOSER
+555555Fetched 0 user bets for resolution
+Event ID: 33296071, Market ID: 1.229249250, Selection ID: 12737427 - The call took 13.563765ms to run.
+Status: WINNER
+555555Fetched 0 user bets for resolution
+Event ID: 33296310, Market ID: 1.229251650, Selection ID: 2309567 - The call took 2.36054ms to run.
+Status: WINNER
+555555Fetched 0 user bets for resolution
+Event ID: 33296071, Market ID: 1.229249250, Selection ID: 9631543 - The call took 1.249538ms to run.
+Status: LOSER
+555555Fetched 0 user bets for resolution
+Event ID: 33296310, Market ID: 1.229251650, Selection ID: 11439772 - The call took 1.879035ms to run.
+Price1: 1.9
+responseData.Price: 1.9
+Calculating exposure for bet: {BACK 1.88 25001 100 7671296}
+Market type: Match Odds
+keyskeys: [7671296]
+elseleeslel: 22000.879880785942 0 0 25001
+Exposure calculated: 25001
+Calculating exposure for bet: {BACK 0 100 100 7671296}
+Market type: Match Odds
+keyskeys: [7671296]
+elseleeslel: 21900.879880785942 0 0 25101
+Exposure calculated: 25101
+Calculating exposure for bet: {BACK 1.9 100 100 7671296}
+Market type: Match Odds
+keyskeys: [7671296]
+elseleeslel: 21990.879878401756 0 0 25201
+Exposure calculated: 25201
+prevSelectionExposure: 25101 25201
+prevSelectionExposure 25101 selectionExposure 25201
+Price1: 1.9
+responseData.Price: 1.9
+Calculating exposure for bet: {BACK 1.88 25001 100 7671296}
+Market type: Match Odds
+keyskeys: [7671296]
+elseleeslel: 22000.879880785942 0 0 25001
+Exposure calculated: 25001
+Calculating exposure for bet: {BACK 0 100 100 7671296}
+Market type: Match Odds
+keyskeys: [7671296]
+elseleeslel: 21900.879880785942 0 0 25101
+Exposure calculated: 25101
+Calculating exposure for bet: {BACK 1.9 100 100 7671296}
+Market type: Match Odds
+keyskeys: [7671296]
+elseleeslel: 21990.879878401756 0 0 25201
+Exposure calculated: 25201
+Calculating exposure for bet: {BACK 1.9 200 100 7671296}
+Market type: Match Odds
+keyskeys: [7671296]
+elseleeslel: 22170.879873633385 0 0 25401
+Exposure calculated: 25401
+prevSelectionExposure: 25201 25401
+prevSelectionExposure 25201 selectionExposure 25401
+Status: WINNER
+555555Fetched 0 user bets for resolution
+Event ID: 33296839, Market ID: 1.229254825, Selection ID: 51615560 - The call took 2.146911ms to run.
+Status: LOSER
+555555Fetched 0 user bets for resolution
+Event ID: 33296839, Market ID: 1.229254825, Selection ID: 24918570 - The call took 3.526626ms to run.
+Price1: 1.91
+responseData.Price: 1.91
+prevSelectionExposure 0 selectionExposure 10000

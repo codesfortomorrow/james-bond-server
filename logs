@@ -1,0 +1,1747 @@
+
+> user-service@1.0.0 start
+> node dist/server.js
+
+Mongoose123!@# 6989008ea58ca3a1f10e633236792580
+publicFolderPath /app/uploads
+🚀️ User service running on port 8001
+🔌️ Database Connection has been established successfully!
+🔌️Bet Database Connection has been established successfully!
+useeee Sachin21
+useeeusere user {
+  dataValues: {
+    id: 476,
+    fullname: 'Sachin',
+    username: 'Sachin21',
+    password: '1455494c9f58563769b601366047c030',
+    dialCode: '+91',
+    phoneNumber: '9893851255',
+    city: 'Indore',
+    level: 1,
+    path: '0.476',
+    ap: '100.00',
+    parentAp: '0.00',
+    balance: '0.00',
+    email: null,
+    creditAmount: '0.00',
+    exposureAmount: '-851.00',
+    transactionCode: '1455494c9f58563769b601366047c030',
+    privileges: null,
+    userType: 'USER',
+    status: 1,
+    remark: '',
+    createdAt: 2024-05-10T10:01:42.217Z,
+    updatedAt: 2024-05-11T02:55:43.844Z,
+    initialSetup: false,
+    lock: true,
+    betLock: true,
+    resetToken: null,
+    isDeleted: false,
+    DOB: null,
+    telegramId: null,
+    instagramId: null,
+    whatsappNumber: null,
+    isPasswordChanged: false
+  },
+  _previousDataValues: {
+    id: 476,
+    fullname: 'Sachin',
+    username: 'Sachin21',
+    password: '1455494c9f58563769b601366047c030',
+    dialCode: '+91',
+    phoneNumber: '9893851255',
+    city: 'Indore',
+    level: 1,
+    path: '0.476',
+    ap: '100.00',
+    parentAp: '0.00',
+    balance: '0.00',
+    email: null,
+    creditAmount: '0.00',
+    exposureAmount: '-851.00',
+    transactionCode: '1455494c9f58563769b601366047c030',
+    privileges: null,
+    userType: 'USER',
+    status: 1,
+    remark: '',
+    createdAt: 2024-05-10T10:01:42.217Z,
+    updatedAt: 2024-05-11T02:55:43.844Z,
+    initialSetup: false,
+    lock: true,
+    betLock: true,
+    resetToken: null,
+    isDeleted: false,
+    DOB: null,
+    telegramId: null,
+    instagramId: null,
+    whatsappNumber: null,
+    isPasswordChanged: false
+  },
+  _changed: Set(0) {},
+  _options: {
+    isNewRecord: false,
+    _schema: null,
+    _schemaDelimiter: '',
+    raw: true,
+    attributes: [
+      'id',             'fullname',
+      'username',       'password',
+      'dialCode',       'phoneNumber',
+      'city',           'level',
+      'path',           'ap',
+      'parentAp',       'balance',
+      'email',          'creditAmount',
+      'exposureAmount', 'transactionCode',
+      'privileges',     'userType',
+      'status',         'remark',
+      'createdAt',      'updatedAt',
+      'initialSetup',   'lock',
+      'betLock',        'resetToken',
+      'isDeleted',      'DOB',
+      'telegramId',     'instagramId',
+      'whatsappNumber', 'isPasswordChanged'
+    ]
+  },
+  isNewRecord: false
+}
+useeee Shiv11
+useeeusere user {
+  dataValues: {
+    id: 1,
+    fullname: 'Shiv11',
+    username: 'Shiv11',
+    password: 'ddf15c043ef928315f4f73bc210685fb',
+    dialCode: '+91',
+    phoneNumber: '9584145270',
+    city: 'Indore',
+    level: 0,
+    path: '0',
+    ap: '100.00',
+    parentAp: '0.00',
+    balance: '7114371.31',
+    email: null,
+    creditAmount: '10000000.00',
+    exposureAmount: '0.00',
+    transactionCode: 'ddf15c043ef928315f4f73bc210685fb',
+    privileges: null,
+    userType: 'OWNER',
+    status: 1,
+    remark: '',
+    createdAt: 2021-12-13T14:50:36.550Z,
+    updatedAt: 2024-05-12T17:52:19.986Z,
+    initialSetup: true,
+    lock: false,
+    betLock: false,
+    resetToken: null,
+    isDeleted: false,
+    DOB: null,
+    telegramId: null,
+    instagramId: null,
+    whatsappNumber: null,
+    isPasswordChanged: true
+  },
+  _previousDataValues: {
+    id: 1,
+    fullname: 'Shiv11',
+    username: 'Shiv11',
+    password: 'ddf15c043ef928315f4f73bc210685fb',
+    dialCode: '+91',
+    phoneNumber: '9584145270',
+    city: 'Indore',
+    level: 0,
+    path: '0',
+    ap: '100.00',
+    parentAp: '0.00',
+    balance: '7114371.31',
+    email: null,
+    creditAmount: '10000000.00',
+    exposureAmount: '0.00',
+    transactionCode: 'ddf15c043ef928315f4f73bc210685fb',
+    privileges: null,
+    userType: 'OWNER',
+    status: 1,
+    remark: '',
+    createdAt: 2021-12-13T14:50:36.550Z,
+    updatedAt: 2024-05-12T17:52:19.986Z,
+    initialSetup: true,
+    lock: false,
+    betLock: false,
+    resetToken: null,
+    isDeleted: false,
+    DOB: null,
+    telegramId: null,
+    instagramId: null,
+    whatsappNumber: null,
+    isPasswordChanged: true
+  },
+  _changed: Set(0) {},
+  _options: {
+    isNewRecord: false,
+    _schema: null,
+    _schemaDelimiter: '',
+    raw: true,
+    attributes: [
+      'id',             'fullname',
+      'username',       'password',
+      'dialCode',       'phoneNumber',
+      'city',           'level',
+      'path',           'ap',
+      'parentAp',       'balance',
+      'email',          'creditAmount',
+      'exposureAmount', 'transactionCode',
+      'privileges',     'userType',
+      'status',         'remark',
+      'createdAt',      'updatedAt',
+      'initialSetup',   'lock',
+      'betLock',        'resetToken',
+      'isDeleted',      'DOB',
+      'telegramId',     'instagramId',
+      'whatsappNumber', 'isPasswordChanged'
+    ]
+  },
+  isNewRecord: false
+}
+useeee Sachin21
+useeeusere user {
+  dataValues: {
+    id: 476,
+    fullname: 'Sachin',
+    username: 'Sachin21',
+    password: '1455494c9f58563769b601366047c030',
+    dialCode: '+91',
+    phoneNumber: '9893851255',
+    city: 'Indore',
+    level: 1,
+    path: '0.476',
+    ap: '100.00',
+    parentAp: '0.00',
+    balance: '0.00',
+    email: null,
+    creditAmount: '0.00',
+    exposureAmount: '-851.00',
+    transactionCode: '1455494c9f58563769b601366047c030',
+    privileges: null,
+    userType: 'USER',
+    status: 1,
+    remark: '',
+    createdAt: 2024-05-10T10:01:42.217Z,
+    updatedAt: 2024-05-13T05:10:57.998Z,
+    initialSetup: false,
+    lock: false,
+    betLock: false,
+    resetToken: null,
+    isDeleted: false,
+    DOB: null,
+    telegramId: null,
+    instagramId: null,
+    whatsappNumber: null,
+    isPasswordChanged: false
+  },
+  _previousDataValues: {
+    id: 476,
+    fullname: 'Sachin',
+    username: 'Sachin21',
+    password: '1455494c9f58563769b601366047c030',
+    dialCode: '+91',
+    phoneNumber: '9893851255',
+    city: 'Indore',
+    level: 1,
+    path: '0.476',
+    ap: '100.00',
+    parentAp: '0.00',
+    balance: '0.00',
+    email: null,
+    creditAmount: '0.00',
+    exposureAmount: '-851.00',
+    transactionCode: '1455494c9f58563769b601366047c030',
+    privileges: null,
+    userType: 'USER',
+    status: 1,
+    remark: '',
+    createdAt: 2024-05-10T10:01:42.217Z,
+    updatedAt: 2024-05-13T05:10:57.998Z,
+    initialSetup: false,
+    lock: false,
+    betLock: false,
+    resetToken: null,
+    isDeleted: false,
+    DOB: null,
+    telegramId: null,
+    instagramId: null,
+    whatsappNumber: null,
+    isPasswordChanged: false
+  },
+  _changed: Set(0) {},
+  _options: {
+    isNewRecord: false,
+    _schema: null,
+    _schemaDelimiter: '',
+    raw: true,
+    attributes: [
+      'id',             'fullname',
+      'username',       'password',
+      'dialCode',       'phoneNumber',
+      'city',           'level',
+      'path',           'ap',
+      'parentAp',       'balance',
+      'email',          'creditAmount',
+      'exposureAmount', 'transactionCode',
+      'privileges',     'userType',
+      'status',         'remark',
+      'createdAt',      'updatedAt',
+      'initialSetup',   'lock',
+      'betLock',        'resetToken',
+      'isDeleted',      'DOB',
+      'telegramId',     'instagramId',
+      'whatsappNumber', 'isPasswordChanged'
+    ]
+  },
+  isNewRecord: false
+}
+aregggg {
+  filterTransaction: '',
+  filterUserId: '476',
+  limit: '15',
+  offset: '0',
+  fromDate: '2024-05-13',
+  toDate: '2024-05-14',
+  _uid: 476,
+  _level: 1,
+  _path: '0.476',
+  _status: 1,
+  _privileges: null,
+  _ut: 'USER',
+  _transactionCode: '1455494c9f58563769b601366047c030',
+  exp: 1715620273,
+  iat: 1715577073
+}
+aregggg {
+  filterTransaction: '',
+  filterUserId: '476',
+  limit: '15',
+  offset: '0',
+  fromDate: '2024-05-08',
+  toDate: '2024-05-14',
+  _uid: 476,
+  _level: 1,
+  _path: '0.476',
+  _status: 1,
+  _privileges: null,
+  _ut: 'USER',
+  _transactionCode: '1455494c9f58563769b601366047c030',
+  exp: 1715620273,
+  iat: 1715577073
+}
+useeee Shiv11
+useeeusere user {
+  dataValues: {
+    id: 1,
+    fullname: 'Shiv11',
+    username: 'Shiv11',
+    password: 'ddf15c043ef928315f4f73bc210685fb',
+    dialCode: '+91',
+    phoneNumber: '9584145270',
+    city: 'Indore',
+    level: 0,
+    path: '0',
+    ap: '100.00',
+    parentAp: '0.00',
+    balance: '7114371.31',
+    email: null,
+    creditAmount: '10000000.00',
+    exposureAmount: '0.00',
+    transactionCode: 'ddf15c043ef928315f4f73bc210685fb',
+    privileges: null,
+    userType: 'OWNER',
+    status: 1,
+    remark: '',
+    createdAt: 2021-12-13T14:50:36.550Z,
+    updatedAt: 2024-05-12T17:52:19.986Z,
+    initialSetup: true,
+    lock: false,
+    betLock: false,
+    resetToken: null,
+    isDeleted: false,
+    DOB: null,
+    telegramId: null,
+    instagramId: null,
+    whatsappNumber: null,
+    isPasswordChanged: true
+  },
+  _previousDataValues: {
+    id: 1,
+    fullname: 'Shiv11',
+    username: 'Shiv11',
+    password: 'ddf15c043ef928315f4f73bc210685fb',
+    dialCode: '+91',
+    phoneNumber: '9584145270',
+    city: 'Indore',
+    level: 0,
+    path: '0',
+    ap: '100.00',
+    parentAp: '0.00',
+    balance: '7114371.31',
+    email: null,
+    creditAmount: '10000000.00',
+    exposureAmount: '0.00',
+    transactionCode: 'ddf15c043ef928315f4f73bc210685fb',
+    privileges: null,
+    userType: 'OWNER',
+    status: 1,
+    remark: '',
+    createdAt: 2021-12-13T14:50:36.550Z,
+    updatedAt: 2024-05-12T17:52:19.986Z,
+    initialSetup: true,
+    lock: false,
+    betLock: false,
+    resetToken: null,
+    isDeleted: false,
+    DOB: null,
+    telegramId: null,
+    instagramId: null,
+    whatsappNumber: null,
+    isPasswordChanged: true
+  },
+  _changed: Set(0) {},
+  _options: {
+    isNewRecord: false,
+    _schema: null,
+    _schemaDelimiter: '',
+    raw: true,
+    attributes: [
+      'id',             'fullname',
+      'username',       'password',
+      'dialCode',       'phoneNumber',
+      'city',           'level',
+      'path',           'ap',
+      'parentAp',       'balance',
+      'email',          'creditAmount',
+      'exposureAmount', 'transactionCode',
+      'privileges',     'userType',
+      'status',         'remark',
+      'createdAt',      'updatedAt',
+      'initialSetup',   'lock',
+      'betLock',        'resetToken',
+      'isDeleted',      'DOB',
+      'telegramId',     'instagramId',
+      'whatsappNumber', 'isPasswordChanged'
+    ]
+  },
+  isNewRecord: false
+}
+all  heheh
+  heheh
+ all heheh
+ ezugi heheh
+  heheh
+all  heheh
+  heheh
+all  heheh
+  heheh
+all  heheh
+  heheh
+all  heheh
+check req body balance  {
+  partner_id: 'SOKQKWUCEUHSXA1S8THG',
+  partnerKey: 'LA67mA9z0/LfHJD9uivJNunY/bzh0nW/0S+rHTaTQjTZQBx5lTiiYddSkaGC04veGDdowXaGcFk=',
+  userId: '416',
+  timestamp: '2024-05-13',
+  need_status_flag: 1
+}
+i log while sending back balance { bet_status: 'Y', balance: 1000 }
+check req body balance  {
+  partner_id: 'SOKQKWUCEUHSXA1S8THG',
+  partnerKey: 'LA67mA9z0/LfHJD9uivJNunY/bzh0nW/0S+rHTaTQjTZQBx5lTiiYddSkaGC04veGDdowXaGcFk=',
+  userId: '416',
+  timestamp: '2024-05-13',
+  need_status_flag: 1
+}
+i log while sending back balance { bet_status: 'Y', balance: 1000 }
+check req body balance  {
+  partner_id: 'SOKQKWUCEUHSXA1S8THG',
+  partnerKey: 'LA67mA9z0/LfHJD9uivJNunY/bzh0nW/0S+rHTaTQjTZQBx5lTiiYddSkaGC04veGDdowXaGcFk=',
+  userId: '416',
+  timestamp: '2024-05-13',
+  need_status_flag: 1
+}
+i log while sending back balance { bet_status: 'Y', balance: 1000 }
+check req body balance  {
+  partner_id: 'SOKQKWUCEUHSXA1S8THG',
+  partnerKey: 'LA67mA9z0/LfHJD9uivJNunY/bzh0nW/0S+rHTaTQjTZQBx5lTiiYddSkaGC04veGDdowXaGcFk=',
+  userId: '416',
+  timestamp: '2024-05-13',
+  need_status_flag: 1
+}
+i log while sending back balance { bet_status: 'Y', balance: 1000 }
+check req body balance  {
+  partner_id: 'SOKQKWUCEUHSXA1S8THG',
+  partnerKey: 'LA67mA9z0/LfHJD9uivJNunY/bzh0nW/0S+rHTaTQjTZQBx5lTiiYddSkaGC04veGDdowXaGcFk=',
+  userId: '416',
+  timestamp: '2024-05-13',
+  need_status_flag: 1
+}
+i log while sending back balance { bet_status: 'Y', balance: 1000 }
+check req body balance  {
+  partner_id: 'SOKQKWUCEUHSXA1S8THG',
+  partnerKey: 'LA67mA9z0/LfHJD9uivJNunY/bzh0nW/0S+rHTaTQjTZQBx5lTiiYddSkaGC04veGDdowXaGcFk=',
+  userId: '416',
+  timestamp: '2024-05-13',
+  need_status_flag: 1
+}
+i log while sending back balance { bet_status: 'Y', balance: 1000 }
+check req body balance  {
+  partner_id: 'SOKQKWUCEUHSXA1S8THG',
+  partnerKey: 'LA67mA9z0/LfHJD9uivJNunY/bzh0nW/0S+rHTaTQjTZQBx5lTiiYddSkaGC04veGDdowXaGcFk=',
+  userId: '416',
+  timestamp: '2024-05-13',
+  need_status_flag: 1
+}
+i log while sending back balance { bet_status: 'Y', balance: 1000 }
+useeee Shiv11
+useeeusere user {
+  dataValues: {
+    id: 1,
+    fullname: 'Shiv11',
+    username: 'Shiv11',
+    password: 'ddf15c043ef928315f4f73bc210685fb',
+    dialCode: '+91',
+    phoneNumber: '9584145270',
+    city: 'Indore',
+    level: 0,
+    path: '0',
+    ap: '100.00',
+    parentAp: '0.00',
+    balance: '7114371.31',
+    email: null,
+    creditAmount: '10000000.00',
+    exposureAmount: '0.00',
+    transactionCode: 'ddf15c043ef928315f4f73bc210685fb',
+    privileges: null,
+    userType: 'OWNER',
+    status: 1,
+    remark: '',
+    createdAt: 2021-12-13T14:50:36.550Z,
+    updatedAt: 2024-05-12T17:52:19.986Z,
+    initialSetup: true,
+    lock: false,
+    betLock: false,
+    resetToken: null,
+    isDeleted: false,
+    DOB: null,
+    telegramId: null,
+    instagramId: null,
+    whatsappNumber: null,
+    isPasswordChanged: true
+  },
+  _previousDataValues: {
+    id: 1,
+    fullname: 'Shiv11',
+    username: 'Shiv11',
+    password: 'ddf15c043ef928315f4f73bc210685fb',
+    dialCode: '+91',
+    phoneNumber: '9584145270',
+    city: 'Indore',
+    level: 0,
+    path: '0',
+    ap: '100.00',
+    parentAp: '0.00',
+    balance: '7114371.31',
+    email: null,
+    creditAmount: '10000000.00',
+    exposureAmount: '0.00',
+    transactionCode: 'ddf15c043ef928315f4f73bc210685fb',
+    privileges: null,
+    userType: 'OWNER',
+    status: 1,
+    remark: '',
+    createdAt: 2021-12-13T14:50:36.550Z,
+    updatedAt: 2024-05-12T17:52:19.986Z,
+    initialSetup: true,
+    lock: false,
+    betLock: false,
+    resetToken: null,
+    isDeleted: false,
+    DOB: null,
+    telegramId: null,
+    instagramId: null,
+    whatsappNumber: null,
+    isPasswordChanged: true
+  },
+  _changed: Set(0) {},
+  _options: {
+    isNewRecord: false,
+    _schema: null,
+    _schemaDelimiter: '',
+    raw: true,
+    attributes: [
+      'id',             'fullname',
+      'username',       'password',
+      'dialCode',       'phoneNumber',
+      'city',           'level',
+      'path',           'ap',
+      'parentAp',       'balance',
+      'email',          'creditAmount',
+      'exposureAmount', 'transactionCode',
+      'privileges',     'userType',
+      'status',         'remark',
+      'createdAt',      'updatedAt',
+      'initialSetup',   'lock',
+      'betLock',        'resetToken',
+      'isDeleted',      'DOB',
+      'telegramId',     'instagramId',
+      'whatsappNumber', 'isPasswordChanged'
+    ]
+  },
+  isNewRecord: false
+}
+useeee Shiv11
+useeeusere user {
+  dataValues: {
+    id: 1,
+    fullname: 'Shiv11',
+    username: 'Shiv11',
+    password: 'ddf15c043ef928315f4f73bc210685fb',
+    dialCode: '+91',
+    phoneNumber: '9584145270',
+    city: 'Indore',
+    level: 0,
+    path: '0',
+    ap: '100.00',
+    parentAp: '0.00',
+    balance: '7114371.31',
+    email: null,
+    creditAmount: '10000000.00',
+    exposureAmount: '0.00',
+    transactionCode: 'ddf15c043ef928315f4f73bc210685fb',
+    privileges: null,
+    userType: 'OWNER',
+    status: 1,
+    remark: '',
+    createdAt: 2021-12-13T14:50:36.550Z,
+    updatedAt: 2024-05-12T17:52:19.986Z,
+    initialSetup: true,
+    lock: false,
+    betLock: false,
+    resetToken: null,
+    isDeleted: false,
+    DOB: null,
+    telegramId: null,
+    instagramId: null,
+    whatsappNumber: null,
+    isPasswordChanged: true
+  },
+  _previousDataValues: {
+    id: 1,
+    fullname: 'Shiv11',
+    username: 'Shiv11',
+    password: 'ddf15c043ef928315f4f73bc210685fb',
+    dialCode: '+91',
+    phoneNumber: '9584145270',
+    city: 'Indore',
+    level: 0,
+    path: '0',
+    ap: '100.00',
+    parentAp: '0.00',
+    balance: '7114371.31',
+    email: null,
+    creditAmount: '10000000.00',
+    exposureAmount: '0.00',
+    transactionCode: 'ddf15c043ef928315f4f73bc210685fb',
+    privileges: null,
+    userType: 'OWNER',
+    status: 1,
+    remark: '',
+    createdAt: 2021-12-13T14:50:36.550Z,
+    updatedAt: 2024-05-12T17:52:19.986Z,
+    initialSetup: true,
+    lock: false,
+    betLock: false,
+    resetToken: null,
+    isDeleted: false,
+    DOB: null,
+    telegramId: null,
+    instagramId: null,
+    whatsappNumber: null,
+    isPasswordChanged: true
+  },
+  _changed: Set(0) {},
+  _options: {
+    isNewRecord: false,
+    _schema: null,
+    _schemaDelimiter: '',
+    raw: true,
+    attributes: [
+      'id',             'fullname',
+      'username',       'password',
+      'dialCode',       'phoneNumber',
+      'city',           'level',
+      'path',           'ap',
+      'parentAp',       'balance',
+      'email',          'creditAmount',
+      'exposureAmount', 'transactionCode',
+      'privileges',     'userType',
+      'status',         'remark',
+      'createdAt',      'updatedAt',
+      'initialSetup',   'lock',
+      'betLock',        'resetToken',
+      'isDeleted',      'DOB',
+      'telegramId',     'instagramId',
+      'whatsappNumber', 'isPasswordChanged'
+    ]
+  },
+  isNewRecord: false
+}
+aregggg {
+  filterUserId: 'null',
+  limit: '8',
+  offset: '0',
+  startdate: '2024-05-13',
+  enddate: '2024-05-14',
+  _uid: 1,
+  _level: 0,
+  _path: '0',
+  _status: 1,
+  _privileges: null,
+  _ut: 'OWNER',
+  _transactionCode: 'ddf15c043ef928315f4f73bc210685fb',
+  exp: 1715619115,
+  iat: 1715575915
+}
+aregggg {
+  filterUserId: '477',
+  limit: '8',
+  offset: '0',
+  startdate: '2024-05-13',
+  enddate: '2024-05-14',
+  _uid: 1,
+  _level: 0,
+  _path: '0',
+  _status: 1,
+  _privileges: null,
+  _ut: 'OWNER',
+  _transactionCode: 'ddf15c043ef928315f4f73bc210685fb',
+  exp: 1715619115,
+  iat: 1715575915
+}
+aregggg {
+  filterUserId: '477',
+  limit: '8',
+  offset: '0',
+  startdate: '2024-05-13',
+  enddate: '2024-05-14',
+  _uid: 1,
+  _level: 0,
+  _path: '0',
+  _status: 1,
+  _privileges: null,
+  _ut: 'OWNER',
+  _transactionCode: 'ddf15c043ef928315f4f73bc210685fb',
+  exp: 1715619115,
+  iat: 1715575915
+}
+aregggg {
+  filterUserId: '477',
+  limit: '8',
+  offset: '0',
+  startdate: '2024-05-12',
+  enddate: '2024-05-14',
+  _uid: 1,
+  _level: 0,
+  _path: '0',
+  _status: 1,
+  _privileges: null,
+  _ut: 'OWNER',
+  _transactionCode: 'ddf15c043ef928315f4f73bc210685fb',
+  exp: 1715619115,
+  iat: 1715575915
+}
+useeee sadu
+useeeusere user {
+  dataValues: {
+    id: 396,
+    fullname: 'rajesh',
+    username: 'sadu',
+    password: '48be2d54f737487c2c99859c781eca7c',
+    dialCode: '+91',
+    phoneNumber: '0521486510',
+    city: 'jpr',
+    level: 1,
+    path: '0.396',
+    ap: '50.00',
+    parentAp: '100.00',
+    balance: '498781.90',
+    email: null,
+    creditAmount: '500000.00',
+    exposureAmount: '0.00',
+    transactionCode: '48be2d54f737487c2c99859c781eca7c',
+    privileges: null,
+    userType: 'MASTER',
+    status: 1,
+    remark: '',
+    createdAt: 2024-04-26T12:08:28.332Z,
+    updatedAt: 2024-05-12T17:45:36.256Z,
+    initialSetup: false,
+    lock: false,
+    betLock: false,
+    resetToken: null,
+    isDeleted: false,
+    DOB: null,
+    telegramId: null,
+    instagramId: null,
+    whatsappNumber: null,
+    isPasswordChanged: true
+  },
+  _previousDataValues: {
+    id: 396,
+    fullname: 'rajesh',
+    username: 'sadu',
+    password: '48be2d54f737487c2c99859c781eca7c',
+    dialCode: '+91',
+    phoneNumber: '0521486510',
+    city: 'jpr',
+    level: 1,
+    path: '0.396',
+    ap: '50.00',
+    parentAp: '100.00',
+    balance: '498781.90',
+    email: null,
+    creditAmount: '500000.00',
+    exposureAmount: '0.00',
+    transactionCode: '48be2d54f737487c2c99859c781eca7c',
+    privileges: null,
+    userType: 'MASTER',
+    status: 1,
+    remark: '',
+    createdAt: 2024-04-26T12:08:28.332Z,
+    updatedAt: 2024-05-12T17:45:36.256Z,
+    initialSetup: false,
+    lock: false,
+    betLock: false,
+    resetToken: null,
+    isDeleted: false,
+    DOB: null,
+    telegramId: null,
+    instagramId: null,
+    whatsappNumber: null,
+    isPasswordChanged: true
+  },
+  _changed: Set(0) {},
+  _options: {
+    isNewRecord: false,
+    _schema: null,
+    _schemaDelimiter: '',
+    raw: true,
+    attributes: [
+      'id',             'fullname',
+      'username',       'password',
+      'dialCode',       'phoneNumber',
+      'city',           'level',
+      'path',           'ap',
+      'parentAp',       'balance',
+      'email',          'creditAmount',
+      'exposureAmount', 'transactionCode',
+      'privileges',     'userType',
+      'status',         'remark',
+      'createdAt',      'updatedAt',
+      'initialSetup',   'lock',
+      'betLock',        'resetToken',
+      'isDeleted',      'DOB',
+      'telegramId',     'instagramId',
+      'whatsappNumber', 'isPasswordChanged'
+    ]
+  },
+  isNewRecord: false
+}
+aregggg {
+  filterUserId: 'null',
+  limit: '8',
+  offset: '0',
+  startdate: '2024-05-13',
+  enddate: '2024-05-14',
+  _uid: 396,
+  _level: 1,
+  _path: '0.396',
+  _status: 1,
+  _privileges: null,
+  _ut: 'MASTER',
+  _transactionCode: '48be2d54f737487c2c99859c781eca7c',
+  exp: 1715622062,
+  iat: 1715578862
+}
+aregggg {
+  filterUserId: '477',
+  limit: '8',
+  offset: '0',
+  startdate: '2024-05-13',
+  enddate: '2024-05-14',
+  _uid: 396,
+  _level: 1,
+  _path: '0.396',
+  _status: 1,
+  _privileges: null,
+  _ut: 'MASTER',
+  _transactionCode: '48be2d54f737487c2c99859c781eca7c',
+  exp: 1715622062,
+  iat: 1715578862
+}
+aregggg {
+  filterUserId: '477',
+  limit: '8',
+  offset: '0',
+  startdate: '2024-05-13',
+  enddate: '2024-05-14',
+  _uid: 396,
+  _level: 1,
+  _path: '0.396',
+  _status: 1,
+  _privileges: null,
+  _ut: 'MASTER',
+  _transactionCode: '48be2d54f737487c2c99859c781eca7c',
+  exp: 1715622062,
+  iat: 1715578862
+}
+aregggg {
+  filterUserId: '477',
+  limit: '8',
+  offset: '0',
+  startdate: '2024-05-12',
+  enddate: '2024-05-14',
+  _uid: 396,
+  _level: 1,
+  _path: '0.396',
+  _status: 1,
+  _privileges: null,
+  _ut: 'MASTER',
+  _transactionCode: '48be2d54f737487c2c99859c781eca7c',
+  exp: 1715622062,
+  iat: 1715578862
+}
+aregggg {
+  filterUserId: '477',
+  limit: '8',
+  offset: '0',
+  startdate: '2024-05-12',
+  enddate: '2024-05-14',
+  _uid: 396,
+  _level: 1,
+  _path: '0.396',
+  _status: 1,
+  _privileges: null,
+  _ut: 'MASTER',
+  _transactionCode: '48be2d54f737487c2c99859c781eca7c',
+  exp: 1715622062,
+  iat: 1715578862
+}
+aregggg {
+  filterUserId: 'null',
+  limit: '8',
+  offset: '0',
+  startdate: '2024-05-13',
+  enddate: '2024-05-14',
+  _uid: 396,
+  _level: 1,
+  _path: '0.396',
+  _status: 1,
+  _privileges: null,
+  _ut: 'MASTER',
+  _transactionCode: '48be2d54f737487c2c99859c781eca7c',
+  exp: 1715622062,
+  iat: 1715578862
+}
+aregggg {
+  filterUserId: '477',
+  limit: '8',
+  offset: '0',
+  startdate: '2024-05-13',
+  enddate: '2024-05-14',
+  _uid: 396,
+  _level: 1,
+  _path: '0.396',
+  _status: 1,
+  _privileges: null,
+  _ut: 'MASTER',
+  _transactionCode: '48be2d54f737487c2c99859c781eca7c',
+  exp: 1715622062,
+  iat: 1715578862
+}
+aregggg {
+  filterUserId: 'null',
+  limit: '8',
+  offset: '0',
+  startdate: '2024-05-13',
+  enddate: '2024-05-14',
+  _uid: 396,
+  _level: 1,
+  _path: '0.396',
+  _status: 1,
+  _privileges: null,
+  _ut: 'MASTER',
+  _transactionCode: '48be2d54f737487c2c99859c781eca7c',
+  exp: 1715622062,
+  iat: 1715578862
+}
+aregggg {
+  filterUserId: '477',
+  limit: '8',
+  offset: '0',
+  startdate: '2024-05-13',
+  enddate: '2024-05-14',
+  _uid: 396,
+  _level: 1,
+  _path: '0.396',
+  _status: 1,
+  _privileges: null,
+  _ut: 'MASTER',
+  _transactionCode: '48be2d54f737487c2c99859c781eca7c',
+  exp: 1715622062,
+  iat: 1715578862
+}
+aregggg {
+  filterUserId: '477',
+  limit: '8',
+  offset: '0',
+  startdate: '2024-05-13',
+  enddate: '2024-05-14',
+  _uid: 396,
+  _level: 1,
+  _path: '0.396',
+  _status: 1,
+  _privileges: null,
+  _ut: 'MASTER',
+  _transactionCode: '48be2d54f737487c2c99859c781eca7c',
+  exp: 1715622062,
+  iat: 1715578862
+}
+useeee durgesh@122
+useeeusere null
+useeee durgesh@122
+useeeusere null
+useeee durgesh@122
+useeeusere null
+check req body balance  {
+  partner_id: 'SOKQKWUCEUHSXA1S8THG',
+  partnerKey: 'LA67mA9z0/LfHJD9uivJNunY/bzh0nW/0S+rHTaTQjTZQBx5lTiiYddSkaGC04veGDdowXaGcFk=',
+  userId: '416',
+  timestamp: '2024-05-13',
+  need_status_flag: 1
+}
+i log while sending back balance { bet_status: 'Y', balance: 1000 }
+check req body balance  {
+  partner_id: 'SOKQKWUCEUHSXA1S8THG',
+  partnerKey: 'LA67mA9z0/LfHJD9uivJNunY/bzh0nW/0S+rHTaTQjTZQBx5lTiiYddSkaGC04veGDdowXaGcFk=',
+  userId: '416',
+  timestamp: '2024-05-13',
+  need_status_flag: 1
+}
+i log while sending back balance { bet_status: 'Y', balance: 1000 }
+useeee Durgesh
+useeeusere user {
+  dataValues: {
+    id: 449,
+    fullname: 'DurgeshRathor',
+    username: 'Durgesh',
+    password: 'd0bb71723dd837fc7a174355c4bafdc0',
+    dialCode: '+91',
+    phoneNumber: '7879946775',
+    city: null,
+    level: null,
+    path: '0.449',
+    ap: '100.00',
+    parentAp: '0.00',
+    balance: '2015.00',
+    email: 'durgeshrathor05@gmail.com',
+    creditAmount: '1000.00',
+    exposureAmount: '0.00',
+    transactionCode: null,
+    privileges: null,
+    userType: 'USER',
+    status: 1,
+    remark: '',
+    createdAt: 2024-05-02T14:04:01.467Z,
+    updatedAt: 2024-05-02T18:02:35.453Z,
+    initialSetup: false,
+    lock: false,
+    betLock: false,
+    resetToken: null,
+    isDeleted: false,
+    DOB: null,
+    telegramId: null,
+    instagramId: null,
+    whatsappNumber: null,
+    isPasswordChanged: false
+  },
+  _previousDataValues: {
+    id: 449,
+    fullname: 'DurgeshRathor',
+    username: 'Durgesh',
+    password: 'd0bb71723dd837fc7a174355c4bafdc0',
+    dialCode: '+91',
+    phoneNumber: '7879946775',
+    city: null,
+    level: null,
+    path: '0.449',
+    ap: '100.00',
+    parentAp: '0.00',
+    balance: '2015.00',
+    email: 'durgeshrathor05@gmail.com',
+    creditAmount: '1000.00',
+    exposureAmount: '0.00',
+    transactionCode: null,
+    privileges: null,
+    userType: 'USER',
+    status: 1,
+    remark: '',
+    createdAt: 2024-05-02T14:04:01.467Z,
+    updatedAt: 2024-05-02T18:02:35.453Z,
+    initialSetup: false,
+    lock: false,
+    betLock: false,
+    resetToken: null,
+    isDeleted: false,
+    DOB: null,
+    telegramId: null,
+    instagramId: null,
+    whatsappNumber: null,
+    isPasswordChanged: false
+  },
+  _changed: Set(0) {},
+  _options: {
+    isNewRecord: false,
+    _schema: null,
+    _schemaDelimiter: '',
+    raw: true,
+    attributes: [
+      'id',             'fullname',
+      'username',       'password',
+      'dialCode',       'phoneNumber',
+      'city',           'level',
+      'path',           'ap',
+      'parentAp',       'balance',
+      'email',          'creditAmount',
+      'exposureAmount', 'transactionCode',
+      'privileges',     'userType',
+      'status',         'remark',
+      'createdAt',      'updatedAt',
+      'initialSetup',   'lock',
+      'betLock',        'resetToken',
+      'isDeleted',      'DOB',
+      'telegramId',     'instagramId',
+      'whatsappNumber', 'isPasswordChanged'
+    ]
+  },
+  isNewRecord: false
+}
+useeee Test10 Pass
+useeeusere null
+useeee Test10 Pass
+useeeusere null
+useeee Test10 
+useeeusere null
+useeee Test10
+useeeusere user {
+  dataValues: {
+    id: 414,
+    fullname: 'TestUser',
+    username: 'Test10',
+    password: 'f925916e2754e5e03f75dd58a5733251',
+    dialCode: '+91',
+    phoneNumber: '9827041964',
+    city: null,
+    level: null,
+    path: '0.414',
+    ap: '100.00',
+    parentAp: '0.00',
+    balance: '0.00',
+    email: 'Test@gmail.com',
+    creditAmount: '0.00',
+    exposureAmount: '0.00',
+    transactionCode: null,
+    privileges: null,
+    userType: 'USER',
+    status: 1,
+    remark: '',
+    createdAt: 2024-05-01T08:26:04.194Z,
+    updatedAt: 2024-05-01T08:26:04.209Z,
+    initialSetup: false,
+    lock: false,
+    betLock: false,
+    resetToken: null,
+    isDeleted: false,
+    DOB: null,
+    telegramId: null,
+    instagramId: null,
+    whatsappNumber: null,
+    isPasswordChanged: false
+  },
+  _previousDataValues: {
+    id: 414,
+    fullname: 'TestUser',
+    username: 'Test10',
+    password: 'f925916e2754e5e03f75dd58a5733251',
+    dialCode: '+91',
+    phoneNumber: '9827041964',
+    city: null,
+    level: null,
+    path: '0.414',
+    ap: '100.00',
+    parentAp: '0.00',
+    balance: '0.00',
+    email: 'Test@gmail.com',
+    creditAmount: '0.00',
+    exposureAmount: '0.00',
+    transactionCode: null,
+    privileges: null,
+    userType: 'USER',
+    status: 1,
+    remark: '',
+    createdAt: 2024-05-01T08:26:04.194Z,
+    updatedAt: 2024-05-01T08:26:04.209Z,
+    initialSetup: false,
+    lock: false,
+    betLock: false,
+    resetToken: null,
+    isDeleted: false,
+    DOB: null,
+    telegramId: null,
+    instagramId: null,
+    whatsappNumber: null,
+    isPasswordChanged: false
+  },
+  _changed: Set(0) {},
+  _options: {
+    isNewRecord: false,
+    _schema: null,
+    _schemaDelimiter: '',
+    raw: true,
+    attributes: [
+      'id',             'fullname',
+      'username',       'password',
+      'dialCode',       'phoneNumber',
+      'city',           'level',
+      'path',           'ap',
+      'parentAp',       'balance',
+      'email',          'creditAmount',
+      'exposureAmount', 'transactionCode',
+      'privileges',     'userType',
+      'status',         'remark',
+      'createdAt',      'updatedAt',
+      'initialSetup',   'lock',
+      'betLock',        'resetToken',
+      'isDeleted',      'DOB',
+      'telegramId',     'instagramId',
+      'whatsappNumber', 'isPasswordChanged'
+    ]
+  },
+  isNewRecord: false
+}
+useeee maina
+useeeusere user {
+  dataValues: {
+    id: 381,
+    fullname: 'aslam',
+    username: 'maina',
+    password: '9368f13fc37646984ecd239f2511294e',
+    dialCode: '+91',
+    phoneNumber: '7014890610',
+    city: 'bkn',
+    level: 1,
+    path: '0.381',
+    ap: '100.00',
+    parentAp: '0.00',
+    balance: '12033.00',
+    email: null,
+    creditAmount: '52000.00',
+    exposureAmount: '-10000.00',
+    transactionCode: 'a827c7511e4867b294d4cf48093b7f5b',
+    privileges: null,
+    userType: 'USER',
+    status: 1,
+    remark: '',
+    createdAt: 2024-04-23T22:16:50.258Z,
+    updatedAt: 2024-05-12T15:38:31.267Z,
+    initialSetup: false,
+    lock: false,
+    betLock: false,
+    resetToken: null,
+    isDeleted: false,
+    DOB: null,
+    telegramId: null,
+    instagramId: null,
+    whatsappNumber: null,
+    isPasswordChanged: false
+  },
+  _previousDataValues: {
+    id: 381,
+    fullname: 'aslam',
+    username: 'maina',
+    password: '9368f13fc37646984ecd239f2511294e',
+    dialCode: '+91',
+    phoneNumber: '7014890610',
+    city: 'bkn',
+    level: 1,
+    path: '0.381',
+    ap: '100.00',
+    parentAp: '0.00',
+    balance: '12033.00',
+    email: null,
+    creditAmount: '52000.00',
+    exposureAmount: '-10000.00',
+    transactionCode: 'a827c7511e4867b294d4cf48093b7f5b',
+    privileges: null,
+    userType: 'USER',
+    status: 1,
+    remark: '',
+    createdAt: 2024-04-23T22:16:50.258Z,
+    updatedAt: 2024-05-12T15:38:31.267Z,
+    initialSetup: false,
+    lock: false,
+    betLock: false,
+    resetToken: null,
+    isDeleted: false,
+    DOB: null,
+    telegramId: null,
+    instagramId: null,
+    whatsappNumber: null,
+    isPasswordChanged: false
+  },
+  _changed: Set(0) {},
+  _options: {
+    isNewRecord: false,
+    _schema: null,
+    _schemaDelimiter: '',
+    raw: true,
+    attributes: [
+      'id',             'fullname',
+      'username',       'password',
+      'dialCode',       'phoneNumber',
+      'city',           'level',
+      'path',           'ap',
+      'parentAp',       'balance',
+      'email',          'creditAmount',
+      'exposureAmount', 'transactionCode',
+      'privileges',     'userType',
+      'status',         'remark',
+      'createdAt',      'updatedAt',
+      'initialSetup',   'lock',
+      'betLock',        'resetToken',
+      'isDeleted',      'DOB',
+      'telegramId',     'instagramId',
+      'whatsappNumber', 'isPasswordChanged'
+    ]
+  },
+  isNewRecord: false
+}
+useeee Shiv11
+useeeusere user {
+  dataValues: {
+    id: 1,
+    fullname: 'Shiv11',
+    username: 'Shiv11',
+    password: 'ddf15c043ef928315f4f73bc210685fb',
+    dialCode: '+91',
+    phoneNumber: '9584145270',
+    city: 'Indore',
+    level: 0,
+    path: '0',
+    ap: '100.00',
+    parentAp: '0.00',
+    balance: '7114371.31',
+    email: null,
+    creditAmount: '10000000.00',
+    exposureAmount: '0.00',
+    transactionCode: 'ddf15c043ef928315f4f73bc210685fb',
+    privileges: null,
+    userType: 'OWNER',
+    status: 1,
+    remark: '',
+    createdAt: 2021-12-13T14:50:36.550Z,
+    updatedAt: 2024-05-12T17:52:19.986Z,
+    initialSetup: true,
+    lock: false,
+    betLock: false,
+    resetToken: null,
+    isDeleted: false,
+    DOB: null,
+    telegramId: null,
+    instagramId: null,
+    whatsappNumber: null,
+    isPasswordChanged: true
+  },
+  _previousDataValues: {
+    id: 1,
+    fullname: 'Shiv11',
+    username: 'Shiv11',
+    password: 'ddf15c043ef928315f4f73bc210685fb',
+    dialCode: '+91',
+    phoneNumber: '9584145270',
+    city: 'Indore',
+    level: 0,
+    path: '0',
+    ap: '100.00',
+    parentAp: '0.00',
+    balance: '7114371.31',
+    email: null,
+    creditAmount: '10000000.00',
+    exposureAmount: '0.00',
+    transactionCode: 'ddf15c043ef928315f4f73bc210685fb',
+    privileges: null,
+    userType: 'OWNER',
+    status: 1,
+    remark: '',
+    createdAt: 2021-12-13T14:50:36.550Z,
+    updatedAt: 2024-05-12T17:52:19.986Z,
+    initialSetup: true,
+    lock: false,
+    betLock: false,
+    resetToken: null,
+    isDeleted: false,
+    DOB: null,
+    telegramId: null,
+    instagramId: null,
+    whatsappNumber: null,
+    isPasswordChanged: true
+  },
+  _changed: Set(0) {},
+  _options: {
+    isNewRecord: false,
+    _schema: null,
+    _schemaDelimiter: '',
+    raw: true,
+    attributes: [
+      'id',             'fullname',
+      'username',       'password',
+      'dialCode',       'phoneNumber',
+      'city',           'level',
+      'path',           'ap',
+      'parentAp',       'balance',
+      'email',          'creditAmount',
+      'exposureAmount', 'transactionCode',
+      'privileges',     'userType',
+      'status',         'remark',
+      'createdAt',      'updatedAt',
+      'initialSetup',   'lock',
+      'betLock',        'resetToken',
+      'isDeleted',      'DOB',
+      'telegramId',     'instagramId',
+      'whatsappNumber', 'isPasswordChanged'
+    ]
+  },
+  isNewRecord: false
+}
+
+> user-service@1.0.0 start
+> node dist/server.js
+
+Mongoose123!@# 6989008ea58ca3a1f10e633236792580
+publicFolderPath /app/uploads
+🚀️ User service running on port 8001
+🔌️ Database Connection has been established successfully!
+🔌️Bet Database Connection has been established successfully!
+useeee Sandeep
+useeeusere user {
+  dataValues: {
+    id: 429,
+    fullname: 'Sandeep',
+    username: 'Sandeep',
+    password: 'cdbefe077d9883348af87130957c7316',
+    dialCode: '+91',
+    phoneNumber: '7568945632',
+    city: 'Indore',
+    level: 2,
+    path: '0.365.429',
+    ap: '100.00',
+    parentAp: '0.00',
+    balance: '12158.00',
+    email: null,
+    creditAmount: '11400.00',
+    exposureAmount: '-229.00',
+    transactionCode: 'cdbefe077d9883348af87130957c7316',
+    privileges: null,
+    userType: 'USER',
+    status: 1,
+    remark: '',
+    createdAt: 2024-05-02T12:24:31.480Z,
+    updatedAt: 2024-05-09T13:10:57.096Z,
+    initialSetup: false,
+    lock: false,
+    betLock: false,
+    resetToken: null,
+    isDeleted: false,
+    DOB: null,
+    telegramId: null,
+    instagramId: null,
+    whatsappNumber: null,
+    isPasswordChanged: false
+  },
+  _previousDataValues: {
+    id: 429,
+    fullname: 'Sandeep',
+    username: 'Sandeep',
+    password: 'cdbefe077d9883348af87130957c7316',
+    dialCode: '+91',
+    phoneNumber: '7568945632',
+    city: 'Indore',
+    level: 2,
+    path: '0.365.429',
+    ap: '100.00',
+    parentAp: '0.00',
+    balance: '12158.00',
+    email: null,
+    creditAmount: '11400.00',
+    exposureAmount: '-229.00',
+    transactionCode: 'cdbefe077d9883348af87130957c7316',
+    privileges: null,
+    userType: 'USER',
+    status: 1,
+    remark: '',
+    createdAt: 2024-05-02T12:24:31.480Z,
+    updatedAt: 2024-05-09T13:10:57.096Z,
+    initialSetup: false,
+    lock: false,
+    betLock: false,
+    resetToken: null,
+    isDeleted: false,
+    DOB: null,
+    telegramId: null,
+    instagramId: null,
+    whatsappNumber: null,
+    isPasswordChanged: false
+  },
+  _changed: Set(0) {},
+  _options: {
+    isNewRecord: false,
+    _schema: null,
+    _schemaDelimiter: '',
+    raw: true,
+    attributes: [
+      'id',             'fullname',
+      'username',       'password',
+      'dialCode',       'phoneNumber',
+      'city',           'level',
+      'path',           'ap',
+      'parentAp',       'balance',
+      'email',          'creditAmount',
+      'exposureAmount', 'transactionCode',
+      'privileges',     'userType',
+      'status',         'remark',
+      'createdAt',      'updatedAt',
+      'initialSetup',   'lock',
+      'betLock',        'resetToken',
+      'isDeleted',      'DOB',
+      'telegramId',     'instagramId',
+      'whatsappNumber', 'isPasswordChanged'
+    ]
+  },
+  isNewRecord: false
+}
+useeee Sandeep
+useeeusere user {
+  dataValues: {
+    id: 429,
+    fullname: 'Sandeep',
+    username: 'Sandeep',
+    password: 'cdbefe077d9883348af87130957c7316',
+    dialCode: '+91',
+    phoneNumber: '7568945632',
+    city: 'Indore',
+    level: 2,
+    path: '0.365.429',
+    ap: '100.00',
+    parentAp: '0.00',
+    balance: '12158.00',
+    email: null,
+    creditAmount: '11400.00',
+    exposureAmount: '-229.00',
+    transactionCode: 'cdbefe077d9883348af87130957c7316',
+    privileges: null,
+    userType: 'USER',
+    status: 1,
+    remark: '',
+    createdAt: 2024-05-02T12:24:31.480Z,
+    updatedAt: 2024-05-09T13:10:57.096Z,
+    initialSetup: false,
+    lock: false,
+    betLock: false,
+    resetToken: null,
+    isDeleted: false,
+    DOB: null,
+    telegramId: null,
+    instagramId: null,
+    whatsappNumber: null,
+    isPasswordChanged: false
+  },
+  _previousDataValues: {
+    id: 429,
+    fullname: 'Sandeep',
+    username: 'Sandeep',
+    password: 'cdbefe077d9883348af87130957c7316',
+    dialCode: '+91',
+    phoneNumber: '7568945632',
+    city: 'Indore',
+    level: 2,
+    path: '0.365.429',
+    ap: '100.00',
+    parentAp: '0.00',
+    balance: '12158.00',
+    email: null,
+    creditAmount: '11400.00',
+    exposureAmount: '-229.00',
+    transactionCode: 'cdbefe077d9883348af87130957c7316',
+    privileges: null,
+    userType: 'USER',
+    status: 1,
+    remark: '',
+    createdAt: 2024-05-02T12:24:31.480Z,
+    updatedAt: 2024-05-09T13:10:57.096Z,
+    initialSetup: false,
+    lock: false,
+    betLock: false,
+    resetToken: null,
+    isDeleted: false,
+    DOB: null,
+    telegramId: null,
+    instagramId: null,
+    whatsappNumber: null,
+    isPasswordChanged: false
+  },
+  _changed: Set(0) {},
+  _options: {
+    isNewRecord: false,
+    _schema: null,
+    _schemaDelimiter: '',
+    raw: true,
+    attributes: [
+      'id',             'fullname',
+      'username',       'password',
+      'dialCode',       'phoneNumber',
+      'city',           'level',
+      'path',           'ap',
+      'parentAp',       'balance',
+      'email',          'creditAmount',
+      'exposureAmount', 'transactionCode',
+      'privileges',     'userType',
+      'status',         'remark',
+      'createdAt',      'updatedAt',
+      'initialSetup',   'lock',
+      'betLock',        'resetToken',
+      'isDeleted',      'DOB',
+      'telegramId',     'instagramId',
+      'whatsappNumber', 'isPasswordChanged'
+    ]
+  },
+  isNewRecord: false
+}
+
+> user-service@1.0.0 start
+> node dist/server.js
+
+Mongoose123!@# 6989008ea58ca3a1f10e633236792580
+publicFolderPath /app/uploads
+🚀️ User service running on port 8001
+🔌️Bet Database Connection has been established successfully!
+🔌️ Database Connection has been established successfully!
+  heheh
+all  heheh
+  heheh
+all  heheh
+  heheh
+all  heheh
+
+> user-service@1.0.0 start
+> node dist/server.js
+
+Mongoose123!@# 6989008ea58ca3a1f10e633236792580
+publicFolderPath /app/uploads
+🚀️ User service running on port 8001
+🔌️Bet Database Connection has been established successfully!
+🔌️ Database Connection has been established successfully!
+
+> user-service@1.0.0 start
+> node dist/server.js
+
+Mongoose123!@# 6989008ea58ca3a1f10e633236792580
+publicFolderPath /app/uploads
+🚀️ User service running on port 8001
+🔌️Bet Database Connection has been established successfully!
+🔌️ Database Connection has been established successfully!
+
+> user-service@1.0.0 start
+> node dist/server.js
+
+Mongoose123!@# 6989008ea58ca3a1f10e633236792580
+publicFolderPath /app/uploads
+🚀️ User service running on port 8001
+🔌️Bet Database Connection has been established successfully!
+🔌️ Database Connection has been established successfully!
+
+> user-service@1.0.0 start
+> node dist/server.js
+
+Mongoose123!@# 6989008ea58ca3a1f10e633236792580
+publicFolderPath /app/uploads
+🚀️ User service running on port 8001
+🔌️ Database Connection has been established successfully!
+🔌️Bet Database Connection has been established successfully!
+
+> user-service@1.0.0 start
+> node dist/server.js
+
+Mongoose123!@# 6989008ea58ca3a1f10e633236792580
+publicFolderPath /app/uploads
+🚀️ User service running on port 8001
+🔌️Bet Database Connection has been established successfully!
+🔌️ Database Connection has been established successfully!
+
+> user-service@1.0.0 start
+> node dist/server.js
+
+Mongoose123!@# 6989008ea58ca3a1f10e633236792580
+publicFolderPath /app/uploads
+🚀️ User service running on port 8001
+🔌️Bet Database Connection has been established successfully!
+🔌️ Database Connection has been established successfully!
+
+> user-service@1.0.0 start
+> node dist/server.js
+
+Mongoose123!@# 6989008ea58ca3a1f10e633236792580
+publicFolderPath /app/uploads
+🚀️ User service running on port 8001
+🔌️ Database Connection has been established successfully!
+🔌️Bet Database Connection has been established successfully!
+
+> user-service@1.0.0 start
+> node dist/server.js
+
+Mongoose123!@# 6989008ea58ca3a1f10e633236792580
+publicFolderPath /app/uploads
+🚀️ User service running on port 8001
+🔌️ Database Connection has been established successfully!
+🔌️Bet Database Connection has been established successfully!
+
+> user-service@1.0.0 start
+> node dist/server.js
+
+Mongoose123!@# 6989008ea58ca3a1f10e633236792580
+publicFolderPath /app/uploads
+🚀️ User service running on port 8001
+🔌️ Database Connection has been established successfully!
+🔌️Bet Database Connection has been established successfully!
+
+> user-service@1.0.0 start
+> node dist/server.js
+
+Mongoose123!@# 6989008ea58ca3a1f10e633236792580
+publicFolderPath /app/uploads
+🚀️ User service running on port 8001
+🔌️Bet Database Connection has been established successfully!
+🔌️ Database Connection has been established successfully!
+
+> user-service@1.0.0 start
+> node dist/server.js
+
+Mongoose123!@# 6989008ea58ca3a1f10e633236792580
+publicFolderPath /app/uploads
+🚀️ User service running on port 8001
+🔌️Bet Database Connection has been established successfully!
+🔌️ Database Connection has been established successfully!

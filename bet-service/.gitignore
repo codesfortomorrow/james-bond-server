@@ -1,0 +1,11 @@
+# bin folder
+bin/
+
+# vscode config
+.vscode/
+
+# server logs
+*.log
+
+# backup files
+*.bkp.*

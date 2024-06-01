@@ -1,0 +1,117 @@
+version: "3"
+services:
+  zookeeper:
+    image: amd64/zookeeper
+    container_name: zookeeper
+    restart: unless-stopped
+    ports:
+      - 2181:2181
+    volumes:
+      - /var/docker/fantasy-sports/zookeeper/data:/data
+      - /var/docker/fantasy-sports/zookeeper/datalog:/datalog
+      - /var/docker/fantasy-sports/zookeeper/logs:/logs
+  kafka:
+    image: bitnami/kafka
+    user: root
+    container_name: kafka
+    restart: unless-stopped
+    ports:
+      - 9092:9092
+    environment:
+      - ALLOW_PLAINTEXT_LISTENER=yes
+      - KAFKA_CFG_ZOOKEEPER_CONNECT=zookeeper:2181
+      - KAFKA_CFG_LOG_RETENTION_HOURS=24
+    depends_on:
+      - zookeeper
+    volumes:
+      - /var/docker/fantasy-sports/kafka:/bitnami/kafka
+  market:
+    build: ./market-service
+    image: fantasy-market-service
+    container_name: market-service
+    restart: unless-stopped
+    ports:
+      - 8004:8004
+    depends_on:
+      - kafka
+    env_file: ./market-service/.env
+  catalogue:
+    build: ./catalogue-service
+    image: fantasy-catalogue-service
+    container_name: catalogue-service
+    restart: unless-stopped
+    ports:
+      - 8002:8002
+    depends_on:
+      - market
+    env_file: ./catalogue-service/.env
+  user:
+    build: ./user-service
+    image: fantasy-user-service
+    container_name: user-service
+    restart: unless-stopped
+    ports:
+      - 8001:8001
+    depends_on:
+      - userdb
+    env_file: ./user-service/.env
+    volumes:
+      - ./user-service/uploads:/app/uploads
+  bet:
+    build: ./bet-service
+    image: fantasy-bet-service
+    container_name: bet-service
+    restart: unless-stopped
+    ports:
+      - 8003:8003
+    depends_on:
+      - market
+      - betdb
+    env_file: ./bet-service/.env
+  market-result:
+    build: ./market-result-service
+    image: fantasy-market-result-service
+    container_name: fantasy-market-result-service
+    restart: unless-stopped
+    ports:
+      - 8005:8005
+    depends_on:
+      - mongodb
+    env_file: ./market-result-service/.env
+  userdb:
+    image: postgres:14
+    container_name: userdb
+    restart: unless-stopped
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRES_PASSWORD=FantasyDB@ccess123
+      - POSTGRES_DB=fantasy_user_service
+    volumes:
+      - /var/docker/fantasy-sports/postgresql/user:/var/lib/postgresql/data
+  betdb:
+    image: postgres:14
+    container_name: betdb
+    restart: unless-stopped
+    ports:
+      - 5434:5432
+    environment:
+      - POSTGRES_PASSWORD=FantasyDB@ccess123
+      - POSTGRES_DB=fantasy_bet_service
+    volumes:
+      - /var/docker/fantasy-sports/postgresql/bet:/var/lib/postgresql/data
+  mongodb:
+    image: mongo
+    container_name: mongodb
+    restart: unless-stopped
+    ports:
+      - 27017:27017
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=mongoose
+      - MONGO_INITDB_ROOT_PASSWORD=mongoose
+    volumes:
+      - /var/docker/fantasy-sports/mongodb/db:/data/db
+      - /var/docker/fantasy-sports/mongodb/configdb:/data/configdb
+networks:
+  default:
+    name: fantasy-sports
