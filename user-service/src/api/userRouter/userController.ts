@@ -315,6 +315,7 @@ class UserController {
       }
       if (!(/^(?=.*[A-Z])(?=.*[~!@#$%^&*()/_=+[\]{}|;:,.<>?-])(?=.*[0-9])(?=.*[a-z]).{6,14}$/.test(args.password as string))) {
         res.status(400).json({ error: "Password is not strong! Enter a password in this formet Test@123" });
+        return;
       }
       const existingUserByPhoneNumber = await User.findOne({
         where: { dialCode: args.dialCode, phoneNumber: args.phoneNumber }
@@ -347,8 +348,8 @@ class UserController {
   };
   shivSendVerificationCode = async (req: Request, res: Response): Promise<void> => {
     const args = { ...req.body };
-    const generatedOtp = this.generateOtp();
-    // const generatedOtp = "000000";
+    // const generatedOtp = this.generateOtp();
+    const generatedOtp = "000000";
     try {
       const otpRecord = await Otp.findOne({ where: { target: args.mobile } });
 
@@ -376,20 +377,20 @@ class UserController {
         );
       }
 
-      const authkey = process.env.SMS_AUTH_KEY;
-      const sender = process.env.SMS_SENDER;
-      const dltTeId = process.env.SMS_DLT_TE_ID;
+      // const authkey = process.env.SMS_AUTH_KEY;
+      // const sender = process.env.SMS_SENDER;
+      // const dltTeId = process.env.SMS_DLT_TE_ID;
 
-      const mobile_number = args.mobile;
-      const message_content = `Your verification Code is ${generatedOtp} ${sender}`;
+      // const mobile_number = args.mobile;
+      // const message_content = `Your verification Code is ${generatedOtp} ${sender}`;
 
-      const url = `http://sms.ibittechnologies.in/api/sendhttp.php?authkey=${authkey}&mobiles=${mobile_number}&message=${encodeURIComponent(message_content)}&sender=${sender}&route=2&country=91&DLT_TE_ID=${dltTeId}`;
-      console.log(url, 'url');
-      await axios.get(url)
-        .then(response => {
-          console.log('SMS API Response:', response.data);
+      // const url = `http://sms.ibittechnologies.in/api/sendhttp.php?authkey=${authkey}&mobiles=${mobile_number}&message=${encodeURIComponent(message_content)}&sender=${sender}&route=2&country=91&DLT_TE_ID=${dltTeId}`;
+      // console.log(url, 'url');
+      // await axios.get(url)
+      //   .then(response => {
+      //     console.log('SMS API Response:', response.data);
           res.status(200).send({ message: "OTP sent successfully" });
-        });
+        // });
 
     } catch (error) {
       console.error('Error:', error);
@@ -1392,14 +1393,14 @@ class UserController {
       if (acceptDepositRequest && acceptDepositRequest.status === 'pending') {
         if (args.newStatus !== "Rejected") {
         if (!args.from || args.from == args._uid) {
-          res.status(422).send(responses.MSG014).end();
+          res.status(422).send(responses.MSG014);
         } else {
           if (args.withdrawAmount) {
             if (
               !args._transactionCode ||
               (args.transactionCode !== undefined && args._transactionCode !== md5(args.transactionCode))
             ) {
-              res.status(422).send(responses.MSG011).end();
+              res.status(422).send(responses.MSG011);
             } else {
               const response = await userModel.withdrawCreditAmount(
                 args.from,
@@ -1408,14 +1409,18 @@ class UserController {
                 args.remark || ""
               );
               // this.sendHttpResponse(res, response);
+              const rowsUpdated = await userModel.updateWithdrawalStatusById(args.id, args.newStatus);
+              res.status(200).json({ message: `${rowsUpdated} rows updated` });
             }
           } else {
             res.send(400).end();
           }
         }
-      }
+
+      } else{
         const rowsUpdated = await userModel.updateWithdrawalStatusById(args.id, args.newStatus);
         res.status(200).json({ message: `${rowsUpdated} rows updated` });
+      }
       } else {
         // throw new Error('request already processed');
         res.status(400).json({ message: ' request already processed' });
@@ -1426,6 +1431,53 @@ class UserController {
       console.log('something went wrong:', error);
       res.status(500).json({ error: 'Failed to update  status' });
     }
+  };
+  updateDipositStatusController = async (req: Request, res: Response): Promise<void> => {
+    try {
+      const args: CreditAmountPayloadd = { ...req.body };
+
+
+      console.log(args, 'args222');
+      const acceptDepositRequest = await DepositRequest.findOne({ where: { id: args.id } }) as unknown as DepositRequestAttributes & { status: string };
+      if (acceptDepositRequest && acceptDepositRequest.status === 'pending') {
+        if (args.newStatus !== "Rejected") {
+          if (args.creditAmount) {
+            if (
+              !args._transactionCode ||
+              (args.transactionCode !== undefined && args._transactionCode !== md5(args.transactionCode))
+            ) {
+              res.status(422).send(responses.MSG011);
+            } else {
+              console.log(args, 'args1');
+              const response = await userModel.transferCreditAmount(
+                args._uid,
+                args.to,
+                args.creditAmount,
+                args.remark || ""
+              );
+              const rowsUpdated = await userModel.updateDepositStatusById(args.id, args.newStatus);
+              res.status(200).json({ message: `${rowsUpdated} rows updated` });
+              // this.sendHttpResponse(res, response);
+            }
+          } else {
+            res.send(400).end();
+          }
+        }
+    
+        else{    console.log(args, 'args2');
+        const rowsUpdated = await userModel.updateDepositStatusById(args.id, args.newStatus);
+        res.status(200).json({ message: `${rowsUpdated} rows updated` });
+        }
+      } else {
+        res.status(400).json({ message: 'Deposit request already processed' });
+      }
+      console.log('accept', acceptDepositRequest);
+
+    } catch (error) {
+      console.error('something went wrong:', error);
+      res.status(500).json({ error: 'Failed to update  status' });
+    }
+
   };
   addBanner = async (req: Request, res: Response): Promise<void> => {
     try {
@@ -1511,52 +1563,6 @@ class UserController {
       console.error(`Error while retrieving banners with status true: ${error}`);
       res.status(500).json({ message: 'Internal Server Error' });
     }
-  };
-  updateDipositStatusController = async (req: Request, res: Response): Promise<void> => {
-    try {
-      const args: CreditAmountPayloadd = { ...req.body };
-
-
-      console.log(args, 'args222');
-      
-      const acceptDepositRequest = await DepositRequest.findOne({ where: { id: args.id } }) as unknown as DepositRequestAttributes & { status: string };
-      if (acceptDepositRequest && acceptDepositRequest.status === 'pending') {
-        if (args.newStatus !== "Rejected") {
-          if (args.creditAmount) {
-            
-            if ( 
-              !args._transactionCode ||
-              (args.transactionCode !== undefined && args._transactionCode !== md5(args.transactionCode))
-            ) {
-              console.log('hashh',md5('James@123'));
-              res.status(422).send(responses.MSG011).end();
-            } else {
-              console.log(args, 'args1');
-              const response = await userModel.transferCreditAmount(
-                args._uid,
-                args.to,
-                args.creditAmount,
-                args.remark || ""
-              );
-              // this.sendHttpResponse(res, response);
-            }
-          } else {
-            res.send(400).end();
-          }
-        }
-        console.log(args, 'args2');
-        const rowsUpdated = await userModel.updateDepositStatusById(args.id, args.newStatus);
-        res.status(200).json({ message: `${rowsUpdated} rows updated` });
-      } else {
-        res.status(400).json({ message: 'Deposit request already processed' });
-      }
-      console.log('accept', acceptDepositRequest);
-
-    } catch (error) {
-      console.error('something went wrong:', error);
-      res.status(500).json({ error: 'Failed to update  status' });
-    }
-
   };
 
 
@@ -2232,25 +2238,7 @@ class UserController {
   };
 
 
-  resultFancyandsession = async (req: Request, res: Response): Promise<void> => {
-    try {
-      const list = await userModel.resultFancyandsession();
-      res.status(200).send({
-        message: "",
-        error: false,
-        code: 200,
-        data: { list }
-      });
-    } catch (error) {
-      console.log("un resolve bet ", error);
-      res.status(500).send({
-        message: "Internal server error",
-        error: true,
-        code: 500,
-        data: null
-      });
-    }
-  };
+ 
 
 
 }

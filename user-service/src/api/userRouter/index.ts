@@ -165,9 +165,9 @@ router.get('/user-allgames-profitandloss' , user.userAllGamesProfitAndLoss);
 router.get('/session-unresolve-bets', user.fancySessionSettlement);
 
 
-// web-hook url for fancy1 and session automatic result 
 
-router.get('/get-business-fancy-list', user.resultFancyandsession);
+
+
 
 
 

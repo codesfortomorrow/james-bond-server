@@ -1,54 +1,61 @@
+/* eslint-disable @typescript-eslint/no-var-requires */
 const http = require('http');
 const https = require('https');
 
-// Create HTTP/HTTPS agents with keep-alive enabled
+
 const httpAgent = new http.Agent({ keepAlive: true });
 const httpsAgent = new https.Agent({ keepAlive: true });
 
-async function getData(url) {
+async function getData(url, options = { retries: 3, timeout: 10000 }) {
+  let attempts = 0;
+
   const client = url.startsWith('https://') ? https : http;
   const agent = url.startsWith('https://') ? httpsAgent : httpAgent;
 
-  const options = {
-    agent, // Use the appropriate agent based on the protocol
-    timeout: 30000, // Set your desired timeout
+  const mergedOptions = {
+    agent,
+    // timeout: options.timeout,
   };
 
-  const promise = new Promise((resolve, reject) => {
-    client.get(url, options, (res) => {
-      let data = [];
+  while (attempts < options.retries) { 
+    attempts++;
 
-      res.on('data', chunk => data.push(chunk));
-      res.on('end', async () => {
-        if (res.statusCode === 200) {
-          try {
-            if (data.length) {
-              const response = JSON.parse(Buffer.concat(data));
-              if (typeof response === 'object')
-                resolve(response);
-              else {
-                console.error(url, response);
-                reject(new Error(response));
+    try {
+      const response = await new Promise((resolve, reject) => {
+        client.get(url, mergedOptions, (res) => {
+          let data = [];
+
+          res.on('data', chunk => data.push(chunk));
+          res.on('end', async () => {
+            if (res.statusCode === 200) {
+              try {
+                if (data.length) {
+                  const response = JSON.parse(Buffer.concat(data));
+                  resolve(response); 
+                } else {
+                  reject(new Error('Empty response')); 
+                }
+              } catch (e) {
+                reject(e); 
               }
             } else {
-              reject(new Error('Empty response'));
+              reject(new Error(res.statusMessage)); 
             }
-          } catch (e) {
-            console.error(url, data, e);
-            reject(e);
-          }
-        } else {
-          console.error(url, res.statusMessage);
-          reject(new Error(res.statusMessage));
-        }
+          });
+        }).on('error', err => {
+          reject(err); 
+        });
       });
-    }).on('error', err => {
-      console.error(url, err);
-      reject(err);
-    });
-  });
 
-  return await promise.catch(err => err);
+      return response; // Return successful response
+    } catch (error) {
+      console.error(`getData failed (attempt ${attempts}/${options.retries}):`, url, error);
+      // Implement exponential backoff or other retry strategies if needed
+    }
+  }
+
+  // All retries exhausted, throw final error
+  throw new Error(`getData failed after ${options.retries} retries: ${url}`);
 }
 
 module.exports = { getData };

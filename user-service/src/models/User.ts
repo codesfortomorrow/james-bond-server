@@ -38,6 +38,7 @@ type UserAttributes = {
   whatsappNumber?: string;
   isPasswordChanged: boolean;
   newUsersAccess ?: boolean;
+  
 }
 
 type UserCreationAttributes = Partial<UserAttributes> & Pick<UserAttributes,  'phoneNumber'>;
