@@ -14,7 +14,7 @@ async function getData(url, options = { retries: 3, timeout: 10000 }) {
 
   const mergedOptions = {
     agent,
-    // timeout: options.timeout,
+     timeout: options.timeout,
   };
 
   while (attempts < options.retries) { 

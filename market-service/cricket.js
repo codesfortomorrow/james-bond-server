@@ -110,8 +110,7 @@ class Cricket {
     const eventHolder = {};
     // console.log('comptition',competition)
     const competitions = await getData(`${process.env.SOCCER_COMPETITIONS_ENDPOINT}?id=4`);
-
-
+    //console.log('This is competitions',competitions);
     if (competitions instanceof Error || !(competitions instanceof Array)) {
       producer.send({
         topic: kafkaTopics.CRICKET_FIXTURE_LIST.topic,
@@ -125,6 +124,7 @@ class Cricket {
 
     await Promise.all(competitions.map(async (c) => {
       const events = await getData(`${process.env.CRICKET_EVENTS_ENDPOINT}?sid=${c.competition.id}&sportid=4`);
+       
       if (!events instanceof Error || events.length > 0) {
         events.forEach((e) => {
           const currentDate = new Date();
@@ -145,7 +145,7 @@ class Cricket {
 
       const marketids = await getData(`${process.env.CRICKET_EVENTS_MARKET}?EventID=${key}&sportid=4`);
       // console.log('evnt',JSON.stringify(marketids),key,`${process.env.CRICKET_EVENTS_MARKET}?EventID=${key}&sportid=4`)
-
+    
       if (marketids == null || marketids.length <= 0 || !Array.isArray(marketids) || marketids.length === 0)
         continue;
 
@@ -1047,7 +1047,7 @@ class Cricket {
 
         const interval = setInterval(async () => {
           const result = await getData(`${process.env.CRICKET_RESULT_ENDPOINT}?market_id=${marketId}&sportid=4`);
-          // console.log('reslut', result);
+           
 
           if (result instanceof Error) return;
 

@@ -5,7 +5,7 @@ export interface AuthUserPayload {
   phoneNumber:string;
   username?: string;
   password?: string;
-}
+} 
 export interface GetParticulerUserDetailsPayload  {
   id?: number;
   path?:string;

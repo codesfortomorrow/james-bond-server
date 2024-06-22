@@ -259,7 +259,7 @@ const User = sequelize.define<UserInstance>('user', {
   isPasswordChanged: {
     type: DataTypes.BOOLEAN,
     allowNull: true,
-    defaultValue: false,
+    defaultValue: true,
     field: 'is-password-changed'
 },
 newUsersAccess : {

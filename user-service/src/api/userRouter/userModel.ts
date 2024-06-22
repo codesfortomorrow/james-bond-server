@@ -868,6 +868,7 @@ console.log('credit',Math.round( parseFloat((user.balance)as any) + parseFloat((
       privileges: privileges ? getPrivileges(privileges) : null,
       userType: subUserType,
       remark,
+      isPasswordChanged:false,
     }).catch((err: Error) => err);
 
     if (subUser instanceof Error) {

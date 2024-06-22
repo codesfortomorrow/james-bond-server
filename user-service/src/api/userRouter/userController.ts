@@ -289,16 +289,16 @@ class UserController {
     }
 
     try {
-      const otpRecord = await Otp.findOne({ where: { target: args.phoneNumber } });
-      if (!otpRecord) {
-        res.status(400).json({ error: 'OTP not found' });
-        return;
-      }
+      // const otpRecord = await Otp.findOne({ where: { target: args.phoneNumber } });
+      // if (!otpRecord) {
+      //   res.status(400).json({ error: 'OTP not found' });
+      //   return;
+      // }
 
-      if (otpRecord.code !== args.otp) {
-        res.status(400).json({ error: 'Incorrect OTP' });
-        return;
-      }
+      // if (otpRecord.code !== args.otp) {
+      //   res.status(400).json({ error: 'Incorrect OTP' });
+      //   return;
+      // }
 
       const existingUserByUsername = await User.findOne({ where: { username: args.username } });
       if (existingUserByUsername) {
@@ -1548,6 +1548,22 @@ class UserController {
     } catch (error) {
       console.error(`Error while updating banner status: ${error}`);
       res.status(500).json({ message: 'Internal Server Error' });
+    }
+  };
+
+  deleteBanner= async (req: Request, res: Response) => {
+    try {
+      const id = req.params.id;
+    console.log('id',id);
+      const upi = await AddBanner.findByPk(id);
+      console.log('upi',upi);
+      if (!upi) throw new Error('Banner not found');
+      await upi.destroy();
+      res.status(200).json({ message: "Banner deleted sucessfully" });
+    } catch (e) {
+      console.log(e);
+      res.status(500).json({ error: "Internal server error" });
+
     }
   };
   getBannerStatus = async (req: Request, res: Response): Promise<void> => {

@@ -414,7 +414,7 @@ if (Object.hasOwnProperty.call(marketIds, marketId)) {
       events.forEach(e => {
         if (!this.marketIntervals[competitionId][e.eventId]) {
           this.marketHandler(producer, competitionId, e.eventId,e.event);
-          this.marketIntervals[competitionId][e] = setInterval(() => this.marketHandler(producer, competitionId, e.eventId,  e.event), 5000);
+          this.marketIntervals[competitionId][e.eventId] = setInterval(() => this.marketHandler(producer, competitionId, e.eventId,  e.event), 5000);
         }
       });
     });

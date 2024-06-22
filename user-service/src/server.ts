@@ -21,14 +21,16 @@ const origins = domain
   ? [
       new RegExp(`^http[s]{0,1}://${domain}$`),
       new RegExp(`^http[s]{0,1}://[a-z-]+.${domain}$`),
-    
-      new RegExp('^http[s]{0,1}://localhost(:[0-9]+)?$')
+      new RegExp('^http[s]{0,1}://localhost(:[0-9]+)?$'),
+      'https://text.codesfortomorrow.com'
     ]
-  : [new RegExp('^http[s]{0,1}://localhost(:[0-9]+)?$')];
+  : [new RegExp('^http[s]{0,1}://localhost(:[0-9]+)?$'),
+   'https://text.codesfortomorrow.com'];
 const corsOptions = {
   origin: origins,
   credentials: true,
 };
+ 
 
 
 

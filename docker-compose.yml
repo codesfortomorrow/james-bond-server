@@ -68,16 +68,16 @@ services:
       - market
       - betdb
     env_file: ./bet-service/.env
-  market-result:
-    build: ./market-result-service
-    image: fantasy-market-result-service
-    container_name: fantasy-market-result-service
-    restart: unless-stopped
-    ports:
-      - 8005:8005
-    depends_on:
-      - mongodb
-    env_file: ./market-result-service/.env
+  # market-result:
+  #   build: ./market-result-service
+  #   image: fantasy-market-result-service
+  #   container_name: fantasy-market-result-service
+  #   restart: unless-stopped
+  #   ports:
+  #     - 8005:8005
+  #   depends_on:
+  #     - mongodb
+  #   env_file: ./market-result-service/.env
   userdb:
     image: postgres:14
     container_name: userdb
@@ -100,18 +100,18 @@ services:
       - POSTGRES_DB=fantasy_bet_service
     volumes:
       - /var/docker/fantasy-sports/postgresql/bet:/var/lib/postgresql/data
-  mongodb:
-    image: mongo
-    container_name: mongodb
-    restart: unless-stopped
-    ports:
-      - 27017:27017
-    environment:
-      - MONGO_INITDB_ROOT_USERNAME=mongoose
-      - MONGO_INITDB_ROOT_PASSWORD=mongoose
-    volumes:
-      - /var/docker/fantasy-sports/mongodb/db:/data/db
-      - /var/docker/fantasy-sports/mongodb/configdb:/data/configdb
+  # mongodb:
+  #   image: mongo
+  #   container_name: mongodb
+  #   restart: unless-stopped
+  #   ports:
+  #     - 27017:27017
+  #   environment:
+  #     - MONGO_INITDB_ROOT_USERNAME=mongoose
+  #     - MONGO_INITDB_ROOT_PASSWORD=mongoose
+  #   volumes:
+  #     - /var/docker/fantasy-sports/mongodb/db:/data/db
+  #     - /var/docker/fantasy-sports/mongodb/configdb:/data/configdb
 networks:
   default:
     name: fantasy-sports

@@ -108,10 +108,16 @@ router.get('/get-all-deposits',AuthenticateSession, user.getAllDeposits);
 router.put('/accept-deposit-request' , user.acceptDepositRequest);
 router.put('/reject-deposit-request' , user.rejectDepositRequest);
 
+
+/////////////////banner ////////////////////////////
+
 router.post('/add-banner', user.addBanner);
 router.get('/get-all-Banner', user.getAllBanners);
-router.get('/get-banner-status', user.getBannerStatus );
+router.get('/get-banner-status', user.getBannerStatus);
 router.put('/banner-status', user.updateBannerStatus);
+router.delete('/delete-banner/:id',user.deleteBanner);
+
+
 
 // USER UPI 
 router.post('/add-userupi', AuthenticateSession, user.addUserUpi);

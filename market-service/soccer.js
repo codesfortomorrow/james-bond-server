@@ -55,7 +55,7 @@ class Soccer {
             const timeDifference = eventOpenDate.getTime() - currentDate.getTime();
             const daysDifference = timeDifference / (1000 * 3600 * 24);
             
-            if (daysDifference <= 4  && daysDifference >= -2 ) {
+            if (daysDifference <= 3  && daysDifference >= -2 ) {
                 eventHolder[e.event.id] = e.event;
                 // console.log('days diffr',daysDifference);
             }
@@ -428,7 +428,7 @@ class Soccer {
       events.forEach(e => {
         if (!this.marketIntervals[competitionId][e.eventId]) {
           this.marketHandler(producer, competitionId, e.eventId, e.event);
-          this.marketIntervals[competitionId][e] = setInterval(() => this.marketHandler(producer, competitionId, e.eventId, e.event), 5000);
+          this.marketIntervals[competitionId][e.eventId] = setInterval(() => this.marketHandler(producer, competitionId, e.eventId, e.event), 5000);
         }
         // if (!this.bmIntervals[competitionId][e.eventId]) {
         //   this.bmHandler(producer, competitionId, e.eventId, e.marketId);
